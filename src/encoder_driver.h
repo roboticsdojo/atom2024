@@ -4,7 +4,7 @@
    
    
 #ifdef ARDUINO_ENC_COUNTER
-  //below can be changed, but should be PORTD pins; 
+  //below can be changed, but should be Interrupt pins (Confirm the interrupt pins in the board you are using)
   //otherwise additional changes in the code are required
   #define LEFT_ENC_PIN_A PD2  //pin 2
   #define LEFT_ENC_PIN_B PD3  //pin 3
