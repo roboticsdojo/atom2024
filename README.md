@@ -1,1 +1,1 @@
-# atom2024
+# This code can only runs on Arduino IDE. Will update changes soon to make it compatible with PlatformIO (VS Code)
