@@ -1,0 +1,576 @@
+[1.932s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.932s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77e8e2d47b50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77e8e2d475e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77e8e2d475e0>>, mixin_verb=('build',))
+[11.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[11.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.737s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/victoria_rotich/atom2024'
+[11.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[11.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[11.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[11.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[11.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[11.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[11.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[11.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[11.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[11.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[11.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[11.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[11.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[11.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[11.755s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extensions ['ignore', 'ignore_ament_install']
+[11.755s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extension 'ignore'
+[11.755s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extension 'ignore_ament_install'
+[11.756s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extensions ['colcon_pkg']
+[11.756s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extension 'colcon_pkg'
+[11.756s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extensions ['colcon_meta']
+[11.756s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extension 'colcon_meta'
+[11.756s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extensions ['ros']
+[11.756s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extension 'ros'
+[11.756s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extensions ['cmake', 'python']
+[11.756s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extension 'cmake'
+[11.756s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extension 'python'
+[11.756s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extensions ['python_setup_py']
+[11.756s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder) by extension 'python_setup_py'
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extensions ['ignore', 'ignore_ament_install']
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extension 'ignore'
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extension 'ignore_ament_install'
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extensions ['colcon_pkg']
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extension 'colcon_pkg'
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extensions ['colcon_meta']
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extension 'colcon_meta'
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extensions ['ros']
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extension 'ros'
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extensions ['cmake', 'python']
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extension 'cmake'
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extension 'python'
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extensions ['python_setup_py']
+[11.757s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder) by extension 'python_setup_py'
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extensions ['ignore', 'ignore_ament_install']
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extension 'ignore'
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extension 'ignore_ament_install'
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extensions ['colcon_pkg']
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extension 'colcon_pkg'
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extensions ['colcon_meta']
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extension 'colcon_meta'
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extensions ['ros']
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extension 'ros'
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extensions ['cmake', 'python']
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extension 'cmake'
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extension 'python'
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extensions ['python_setup_py']
+[11.758s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples) by extension 'python_setup_py'
+[11.759s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extensions ['ignore', 'ignore_ament_install']
+[11.759s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extension 'ignore'
+[11.759s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extension 'ignore_ament_install'
+[11.759s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extensions ['colcon_pkg']
+[11.759s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extension 'colcon_pkg'
+[11.759s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extensions ['colcon_meta']
+[11.759s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extension 'colcon_meta'
+[11.759s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extensions ['ros']
+[11.759s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extension 'ros'
+[11.759s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extensions ['cmake', 'python']
+[11.760s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extension 'cmake'
+[11.760s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extension 'python'
+[11.760s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extensions ['python_setup_py']
+[11.760s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/Basic) by extension 'python_setup_py'
+[11.760s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extensions ['ignore', 'ignore_ament_install']
+[11.760s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extension 'ignore'
+[11.760s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extension 'ignore_ament_install'
+[11.760s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extensions ['colcon_pkg']
+[11.760s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extension 'colcon_pkg'
+[11.760s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extensions ['colcon_meta']
+[11.760s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extension 'colcon_meta'
+[11.760s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extensions ['ros']
+[11.761s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extension 'ros'
+[11.761s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extensions ['cmake', 'python']
+[11.761s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extension 'cmake'
+[11.761s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extension 'python'
+[11.761s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extensions ['python_setup_py']
+[11.761s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/NoInterrupts) by extension 'python_setup_py'
+[11.761s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extensions ['ignore', 'ignore_ament_install']
+[11.761s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extension 'ignore'
+[11.761s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extension 'ignore_ament_install'
+[11.762s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extensions ['colcon_pkg']
+[11.762s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extension 'colcon_pkg'
+[11.762s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extensions ['colcon_meta']
+[11.762s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extension 'colcon_meta'
+[11.762s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extensions ['ros']
+[11.762s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extension 'ros'
+[11.762s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extensions ['cmake', 'python']
+[11.762s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extension 'cmake'
+[11.762s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extension 'python'
+[11.762s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extensions ['python_setup_py']
+[11.762s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/SpeedTest) by extension 'python_setup_py'
+[11.762s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extensions ['ignore', 'ignore_ament_install']
+[11.763s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extension 'ignore'
+[11.763s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extension 'ignore_ament_install'
+[11.763s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extensions ['colcon_pkg']
+[11.763s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extension 'colcon_pkg'
+[11.763s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extensions ['colcon_meta']
+[11.763s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extension 'colcon_meta'
+[11.763s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extensions ['ros']
+[11.763s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extension 'ros'
+[11.763s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extensions ['cmake', 'python']
+[11.764s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extension 'cmake'
+[11.764s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extension 'python'
+[11.764s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extensions ['python_setup_py']
+[11.764s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/examples/TwoKnobs) by extension 'python_setup_py'
+[11.764s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extensions ['ignore', 'ignore_ament_install']
+[11.764s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extension 'ignore'
+[11.764s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extension 'ignore_ament_install'
+[11.764s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extensions ['colcon_pkg']
+[11.764s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extension 'colcon_pkg'
+[11.764s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extensions ['colcon_meta']
+[11.765s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extension 'colcon_meta'
+[11.765s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extensions ['ros']
+[11.765s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extension 'ros'
+[11.765s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extensions ['cmake', 'python']
+[11.765s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extension 'cmake'
+[11.765s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extension 'python'
+[11.765s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extensions ['python_setup_py']
+[11.765s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/Encoder/utility) by extension 'python_setup_py'
+[11.765s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extensions ['ignore', 'ignore_ament_install']
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extension 'ignore'
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extension 'ignore_ament_install'
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extensions ['colcon_pkg']
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extension 'colcon_pkg'
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extensions ['colcon_meta']
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extension 'colcon_meta'
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extensions ['ros']
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extension 'ros'
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extensions ['cmake', 'python']
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extension 'cmake'
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extension 'python'
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extensions ['python_setup_py']
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples) by extension 'python_setup_py'
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extensions ['ignore', 'ignore_ament_install']
+[11.766s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extension 'ignore'
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extension 'ignore_ament_install'
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extensions ['colcon_pkg']
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extension 'colcon_pkg'
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extensions ['colcon_meta']
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extension 'colcon_meta'
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extensions ['ros']
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extension 'ros'
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extensions ['cmake', 'python']
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extension 'cmake'
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extension 'python'
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extensions ['python_setup_py']
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/Basic) by extension 'python_setup_py'
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extensions ['ignore', 'ignore_ament_install']
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extension 'ignore'
+[11.767s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extension 'ignore_ament_install'
+[11.768s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extensions ['colcon_pkg']
+[11.768s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extension 'colcon_pkg'
+[11.768s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extensions ['colcon_meta']
+[11.768s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extension 'colcon_meta'
+[11.768s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extensions ['ros']
+[11.768s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extension 'ros'
+[11.768s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extensions ['cmake', 'python']
+[11.768s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extension 'cmake'
+[11.768s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extension 'python'
+[11.768s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extensions ['python_setup_py']
+[11.768s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/NoInterrupts) by extension 'python_setup_py'
+[11.769s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extensions ['ignore', 'ignore_ament_install']
+[11.769s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extension 'ignore'
+[11.769s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extension 'ignore_ament_install'
+[11.769s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extensions ['colcon_pkg']
+[11.769s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extension 'colcon_pkg'
+[11.769s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extensions ['colcon_meta']
+[11.769s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extension 'colcon_meta'
+[11.769s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extensions ['ros']
+[11.769s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extension 'ros'
+[11.769s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extensions ['cmake', 'python']
+[11.770s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extension 'cmake'
+[11.770s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extension 'python'
+[11.770s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extensions ['python_setup_py']
+[11.770s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/SpeedTest) by extension 'python_setup_py'
+[11.770s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extensions ['ignore', 'ignore_ament_install']
+[11.770s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extension 'ignore'
+[11.770s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extension 'ignore_ament_install'
+[11.770s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extensions ['colcon_pkg']
+[11.770s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extension 'colcon_pkg'
+[11.770s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extensions ['colcon_meta']
+[11.770s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extension 'colcon_meta'
+[11.770s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extensions ['ros']
+[11.771s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extension 'ros'
+[11.771s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extensions ['cmake', 'python']
+[11.771s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extension 'cmake'
+[11.771s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extension 'python'
+[11.771s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extensions ['python_setup_py']
+[11.771s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/examples/TwoKnobs) by extension 'python_setup_py'
+[11.771s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extensions ['ignore', 'ignore_ament_install']
+[11.771s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extension 'ignore'
+[11.771s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extension 'ignore_ament_install'
+[11.771s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extensions ['colcon_pkg']
+[11.771s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extension 'colcon_pkg'
+[11.771s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extensions ['colcon_meta']
+[11.771s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extension 'colcon_meta'
+[11.772s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extensions ['ros']
+[11.772s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extension 'ros'
+[11.772s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extensions ['cmake', 'python']
+[11.772s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extension 'cmake'
+[11.772s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extension 'python'
+[11.772s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extensions ['python_setup_py']
+[11.772s] Level 1:colcon.colcon_core.package_identification:_identify(Encoder/utility) by extension 'python_setup_py'
+[11.772s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[11.772s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[11.772s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[11.772s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[11.773s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'ignore'
+[11.773s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'ignore_ament_install'
+[11.773s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['colcon_pkg']
+[11.773s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'colcon_pkg'
+[11.773s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['colcon_meta']
+[11.773s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'colcon_meta'
+[11.773s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['ros']
+[11.773s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'ros'
+[11.777s] DEBUG:colcon.colcon_core.package_identification:Package 'diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[11.777s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[11.778s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[11.778s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[11.778s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[11.778s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[11.778s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[11.778s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extensions ['ignore', 'ignore_ament_install']
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extension 'ignore'
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extension 'ignore_ament_install'
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extensions ['colcon_pkg']
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extension 'colcon_pkg'
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extensions ['colcon_meta']
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extension 'colcon_meta'
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extensions ['ros']
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extension 'ros'
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extensions ['cmake', 'python']
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extension 'cmake'
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extension 'python'
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extensions ['python_setup_py']
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(motor control) by extension 'python_setup_py'
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extensions ['ignore', 'ignore_ament_install']
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extension 'ignore'
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extension 'ignore_ament_install'
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extensions ['colcon_pkg']
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extension 'colcon_pkg'
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extensions ['colcon_meta']
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extension 'colcon_meta'
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extensions ['ros']
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extension 'ros'
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extensions ['cmake', 'python']
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extension 'cmake'
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extension 'python'
+[11.781s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extensions ['python_setup_py']
+[11.781s] Level 1:colcon.colcon_core.package_identification:_identify(motor control/src) by extension 'python_setup_py'
+[11.781s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['ignore', 'ignore_ament_install']
+[11.781s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ignore'
+[11.781s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ignore_ament_install'
+[11.781s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['colcon_pkg']
+[11.781s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'colcon_pkg'
+[11.781s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['colcon_meta']
+[11.781s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'colcon_meta'
+[11.781s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['ros']
+[11.781s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ros'
+[11.782s] DEBUG:colcon.colcon_core.package_identification:Package 'serial' with type 'ros.ament_cmake' and name 'serial'
+[11.783s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[11.783s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore'
+[11.783s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore_ament_install'
+[11.783s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_pkg']
+[11.783s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_pkg'
+[11.783s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_meta']
+[11.783s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_meta'
+[11.783s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ros']
+[11.784s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ros'
+[11.785s] DEBUG:colcon.colcon_core.package_identification:Package 'sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[11.786s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[11.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[11.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[11.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[11.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[11.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[11.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[11.787s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[11.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/atom_qs) by extensions ['ignore', 'ignore_ament_install']
+[11.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/atom_qs) by extension 'ignore'
+[11.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/atom_qs) by extension 'ignore_ament_install'
+[11.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/atom_qs) by extensions ['colcon_pkg']
+[11.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/atom_qs) by extension 'colcon_pkg'
+[11.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/atom_qs) by extensions ['colcon_meta']
+[11.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/atom_qs) by extension 'colcon_meta'
+[11.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/atom_qs) by extensions ['ros']
+[11.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/atom_qs) by extension 'ros'
+[11.820s] DEBUG:colcon.colcon_core.package_identification:Package 'src/atom_qs' with type 'ros.ament_cmake' and name 'atom_qs'
+[11.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[11.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[11.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[11.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[11.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[12.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[12.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[12.542s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/victoria_rotich/cyclonedds_ws/install
+[12.543s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/victoria_rotich/dojo_robotics_2025/install
+[12.543s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/victoria_rotich/ros2_ws/install
+[12.544s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/victoria_rotich/dojo_robotics_2025/src/install
+[12.546s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 374 installed packages in /opt/ros/humble
+[12.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[12.747s] Level 5:colcon.colcon_core.verb:set package 'atom_qs' build argument 'cmake_args' from command line to 'None'
+[12.747s] Level 5:colcon.colcon_core.verb:set package 'atom_qs' build argument 'cmake_target' from command line to 'None'
+[12.747s] Level 5:colcon.colcon_core.verb:set package 'atom_qs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.747s] Level 5:colcon.colcon_core.verb:set package 'atom_qs' build argument 'cmake_clean_cache' from command line to 'False'
+[12.747s] Level 5:colcon.colcon_core.verb:set package 'atom_qs' build argument 'cmake_clean_first' from command line to 'False'
+[12.747s] Level 5:colcon.colcon_core.verb:set package 'atom_qs' build argument 'cmake_force_configure' from command line to 'False'
+[12.747s] Level 5:colcon.colcon_core.verb:set package 'atom_qs' build argument 'ament_cmake_args' from command line to 'None'
+[12.747s] Level 5:colcon.colcon_core.verb:set package 'atom_qs' build argument 'catkin_cmake_args' from command line to 'None'
+[12.747s] Level 5:colcon.colcon_core.verb:set package 'atom_qs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.747s] DEBUG:colcon.colcon_core.verb:Building package 'atom_qs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victoria_rotich/atom2024/build/atom_qs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victoria_rotich/atom2024/install/atom_qs', 'merge_install': False, 'path': '/home/victoria_rotich/atom2024/src/atom_qs', 'symlink_install': True, 'test_result_base': None}
+[12.748s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[12.748s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[12.748s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.748s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[12.748s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[12.748s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[12.748s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[12.748s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[12.748s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.748s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victoria_rotich/atom2024/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victoria_rotich/atom2024/install/serial', 'merge_install': False, 'path': '/home/victoria_rotich/atom2024/serial', 'symlink_install': True, 'test_result_base': None}
+[12.749s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[12.749s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[12.749s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.749s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[12.749s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[12.749s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[12.749s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[12.749s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[12.749s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.749s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victoria_rotich/atom2024/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victoria_rotich/atom2024/install/sllidar_ros2', 'merge_install': False, 'path': '/home/victoria_rotich/atom2024/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[12.750s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[12.750s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[12.750s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.750s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[12.750s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[12.750s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[12.750s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[12.750s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[12.750s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.750s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victoria_rotich/atom2024/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victoria_rotich/atom2024/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/victoria_rotich/atom2024/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[12.750s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[12.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[12.752s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/victoria_rotich/atom2024/serial' with build type 'ament_cmake'
+[12.752s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/victoria_rotich/atom2024/serial'
+[12.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[12.845s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.845s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.870s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/victoria_rotich/atom2024/src/atom_qs' with build type 'ament_cmake'
+[12.871s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/victoria_rotich/atom2024/src/atom_qs'
+[12.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.879s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/victoria_rotich/atom2024/sllidar_ros2' with build type 'ament_cmake'
+[12.879s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/victoria_rotich/atom2024/sllidar_ros2'
+[12.880s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.880s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victoria_rotich/atom2024/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/atom2024/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/serial
+[12.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victoria_rotich/atom2024/build/atom_qs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/atom2024/src/atom_qs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/atom_qs
+[12.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victoria_rotich/atom2024/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/atom2024/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/sllidar_ros2
+[15.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victoria_rotich/atom2024/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/atom2024/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/serial
+[15.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victoria_rotich/atom2024/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/serial -- -j8 -l8
+[15.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victoria_rotich/atom2024/build/atom_qs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/atom2024/src/atom_qs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/atom_qs
+[15.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victoria_rotich/atom2024/build/atom_qs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/atom_qs -- -j8 -l8
+[15.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victoria_rotich/atom2024/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/serial -- -j8 -l8
+[15.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victoria_rotich/atom2024/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/serial
+[15.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victoria_rotich/atom2024/build/atom_qs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/atom_qs -- -j8 -l8
+[15.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victoria_rotich/atom2024/build/atom_qs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/atom_qs
+[16.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[16.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victoria_rotich/atom2024/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/serial
+[16.668s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial' for CMake module files
+[16.670s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial' for CMake config files
+[16.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[16.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[16.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victoria_rotich/atom2024/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[16.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[16.742s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial/lib'
+[16.742s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial/bin'
+[16.743s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial/lib/pkgconfig/serial.pc'
+[16.743s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial/lib/python3.10/site-packages'
+[16.743s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial/bin'
+[16.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/serial/share/serial/package.ps1'
+[16.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victoria_rotich/atom2024/install/serial/share/serial/package.dsv'
+[16.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/serial/share/serial/package.sh'
+[16.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/serial/share/serial/package.bash'
+[16.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/serial/share/serial/package.zsh'
+[16.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victoria_rotich/atom2024/install/serial/share/colcon-core/packages/serial)
+[16.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[16.813s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial' for CMake module files
+[16.815s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial' for CMake config files
+[16.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[16.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[16.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victoria_rotich/atom2024/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[16.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[16.830s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial/lib'
+[16.830s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial/bin'
+[16.831s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial/lib/pkgconfig/serial.pc'
+[16.831s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial/lib/python3.10/site-packages'
+[16.832s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/serial/bin'
+[16.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/serial/share/serial/package.ps1'
+[16.835s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victoria_rotich/atom2024/install/serial/share/serial/package.dsv'
+[16.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/serial/share/serial/package.sh'
+[16.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/serial/share/serial/package.bash'
+[16.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/serial/share/serial/package.zsh'
+[16.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victoria_rotich/atom2024/install/serial/share/colcon-core/packages/serial)
+[16.855s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/victoria_rotich/atom2024/diffdrive_arduino' with build type 'ament_cmake'
+[16.855s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/victoria_rotich/atom2024/diffdrive_arduino'
+[16.863s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.863s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atom_qs)
+[16.895s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/atom_qs' for CMake module files
+[16.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victoria_rotich/atom2024/build/atom_qs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/atom_qs
+[16.903s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/atom_qs' for CMake config files
+[16.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('atom_qs', 'cmake_prefix_path')
+[16.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/hook/cmake_prefix_path.ps1'
+[16.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/hook/cmake_prefix_path.dsv'
+[16.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/hook/cmake_prefix_path.sh'
+[16.910s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/atom_qs/bin'
+[16.910s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/atom_qs/lib/pkgconfig/atom_qs.pc'
+[16.911s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/atom_qs/lib/python3.10/site-packages'
+[16.912s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/atom_qs/bin'
+[16.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.ps1'
+[16.921s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.dsv'
+[16.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.sh'
+[16.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.bash'
+[16.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.zsh'
+[16.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victoria_rotich/atom2024/install/atom_qs/share/colcon-core/packages/atom_qs)
+[16.930s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atom_qs)
+[16.943s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/atom_qs' for CMake module files
+[16.944s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/atom_qs' for CMake config files
+[16.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('atom_qs', 'cmake_prefix_path')
+[16.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/hook/cmake_prefix_path.ps1'
+[16.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/hook/cmake_prefix_path.dsv'
+[16.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/hook/cmake_prefix_path.sh'
+[16.950s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/atom_qs/bin'
+[16.950s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/atom_qs/lib/pkgconfig/atom_qs.pc'
+[16.951s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/atom_qs/lib/python3.10/site-packages'
+[16.951s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/atom_qs/bin'
+[16.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.ps1'
+[16.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.dsv'
+[16.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.sh'
+[16.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.bash'
+[16.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.zsh'
+[16.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victoria_rotich/atom2024/install/atom_qs/share/colcon-core/packages/atom_qs)
+[17.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victoria_rotich/atom2024/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble LD_LIBRARY_PATH=/home/victoria_rotich/atom2024/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/victoria_rotich/atom2024/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/diffdrive_arduino
+[26.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victoria_rotich/atom2024/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/atom2024/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/sllidar_ros2
+[26.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victoria_rotich/atom2024/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/sllidar_ros2 -- -j8 -l8
+[28.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victoria_rotich/atom2024/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble LD_LIBRARY_PATH=/home/victoria_rotich/atom2024/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/victoria_rotich/atom2024/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/diffdrive_arduino
+[28.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victoria_rotich/atom2024/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble LD_LIBRARY_PATH=/home/victoria_rotich/atom2024/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/diffdrive_arduino -- -j8 -l8
+[32.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victoria_rotich/atom2024/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble LD_LIBRARY_PATH=/home/victoria_rotich/atom2024/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/diffdrive_arduino -- -j8 -l8
+[32.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victoria_rotich/atom2024/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble LD_LIBRARY_PATH=/home/victoria_rotich/atom2024/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/diffdrive_arduino
+[34.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[34.092s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino' for CMake module files
+[34.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victoria_rotich/atom2024/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble LD_LIBRARY_PATH=/home/victoria_rotich/atom2024/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/diffdrive_arduino
+[34.096s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino' for CMake config files
+[34.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[34.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[34.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[34.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[34.106s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino/lib'
+[34.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[34.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[34.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[34.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[34.111s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino/bin'
+[34.111s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[34.112s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/python3.10/site-packages'
+[34.112s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino/bin'
+[34.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[34.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[34.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[34.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[34.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[34.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[34.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[34.127s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino' for CMake module files
+[34.128s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino' for CMake config files
+[34.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[34.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[34.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[34.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[34.235s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino/lib'
+[34.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[34.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[34.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[34.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[34.244s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino/bin'
+[34.244s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[34.244s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/python3.10/site-packages'
+[34.245s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/diffdrive_arduino/bin'
+[34.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[34.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[34.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[34.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[34.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[34.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victoria_rotich/atom2024/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[57.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victoria_rotich/atom2024/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/sllidar_ros2 -- -j8 -l8
+[57.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victoria_rotich/atom2024/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/sllidar_ros2
+[57.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[57.844s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2' for CMake module files
+[57.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victoria_rotich/atom2024/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/sllidar_ros2
+[57.846s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2' for CMake config files
+[57.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[57.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[57.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[57.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[57.851s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2/lib'
+[57.851s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2/bin'
+[57.852s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[57.852s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2/lib/python3.10/site-packages'
+[57.852s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2/bin'
+[57.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[57.854s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[57.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[57.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[57.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[57.857s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victoria_rotich/atom2024/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[57.859s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[57.859s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2' for CMake module files
+[57.861s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2' for CMake config files
+[57.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[57.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[57.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[57.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[57.866s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2/lib'
+[57.866s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2/bin'
+[57.867s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[57.868s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2/lib/python3.10/site-packages'
+[57.868s] Level 1:colcon.colcon_core.environment:checking '/home/victoria_rotich/atom2024/install/sllidar_ros2/bin'
+[57.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[57.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[57.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[57.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[57.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/victoria_rotich/atom2024/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[57.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victoria_rotich/atom2024/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[57.875s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[57.877s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[57.877s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[57.877s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[58.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[58.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[58.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[58.480s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[58.480s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[58.481s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[58.482s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victoria_rotich/atom2024/install/local_setup.ps1'
+[58.511s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victoria_rotich/atom2024/install/_local_setup_util_ps1.py'
+[58.570s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victoria_rotich/atom2024/install/setup.ps1'
+[58.610s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victoria_rotich/atom2024/install/local_setup.sh'
+[58.668s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victoria_rotich/atom2024/install/_local_setup_util_sh.py'
+[58.670s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victoria_rotich/atom2024/install/setup.sh'
+[58.694s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victoria_rotich/atom2024/install/local_setup.bash'
+[58.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victoria_rotich/atom2024/install/setup.bash'
+[58.772s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victoria_rotich/atom2024/install/local_setup.zsh'
+[58.827s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victoria_rotich/atom2024/install/setup.zsh'

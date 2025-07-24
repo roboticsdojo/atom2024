@@ -1,0 +1,49 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/victoria_rotich/atom2024/build/atom_qs
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/empty.yaml
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/gaz_ros2_ctl_use_sim.yaml
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/gazebo_params.yaml
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/joystick.yaml
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/mapper_params_online_async.yaml
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/my_controllers.yaml
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/twist_mux.yaml
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/view_atom.rviz
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/gazebo_control.xacro
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/inertia_macros.xacro
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/lidar.xacro
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/robot.urdf.xacro
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/robot_core.xacro
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/ros2_control.xacro
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/joystick.launch.py
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/launch_robot.launch.py
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/launch_sim.launch.py
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/rplidar.launch.py
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/rsp.launch.py
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/worlds/dojo2024.world
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/worlds/empty.world
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/ament_index/resource_index/package_run_dependencies/atom_qs
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/ament_index/resource_index/parent_prefix_path/atom_qs
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/environment/ament_prefix_path.sh
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/environment/path.sh
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/environment/path.dsv
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/local_setup.bash
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/local_setup.sh
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/local_setup.zsh
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/local_setup.dsv
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.dsv
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/ament_index/resource_index/packages/atom_qs
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/cmake/atom_qsConfig.cmake
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/cmake/atom_qsConfig-version.cmake
+-- Symlinking: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.xml

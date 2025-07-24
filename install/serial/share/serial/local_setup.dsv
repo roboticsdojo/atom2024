@@ -1,3 +1,1 @@
-source;share/serial/environment/ament_prefix_path.sh
-source;share/serial/environment/library_path.sh
-source;share/serial/environment/path.sh
+/home/victoria_rotich/atom2024/build/serial/ament_cmake_environment_hooks/local_setup.dsv

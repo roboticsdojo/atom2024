@@ -45,6 +45,19 @@ ros2 run twist_mux twist_mux --ros-args --params-file ./src/atom_qs/config/twist
 Remap cmd_vel from teleop_twist_keyboard to cmd_vel_key
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/cmd_vel_key
 
+8. To check our gamepad works in Linux, we want to install some useful tools:
+
+sudo apt install joystick jstest-gtk evtest
+
+With the controller connected (e.g. via USB or Bluetooth), we can open a terminal and run evtest.
+
+9. To listen to a joystick with the new drivers, we can use the tools from the joy package. The first one will tell us which controllers ROS can see:
+
+ros2 run joy joy_enumerate_devices
+
+10. ros2 run joy joy_node # <-- Run in first terminal
+ros2 topic echo /joy # <-- Run in second terminal
+
 # Running Localisation
 Step 1
 ros2 launch atom_qs launch_sim.launch.py world:=./src/atom_qs/worlds/dojo2024

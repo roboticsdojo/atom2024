@@ -1,2 +1,1 @@
-source;share/atom_qs/environment/ament_prefix_path.sh
-source;share/atom_qs/environment/path.sh
+/home/victoria_rotich/atom2024/build/atom_qs/ament_cmake_environment_hooks/local_setup.dsv

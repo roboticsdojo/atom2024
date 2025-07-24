@@ -1,3 +1,1 @@
-gazebo:
-  ros__parameters:
-    publish_rate: 400.0
+/home/victoria_rotich/atom2024/src/atom_qs/config/gazebo_params.yaml

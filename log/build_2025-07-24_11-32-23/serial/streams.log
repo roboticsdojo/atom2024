@@ -1,0 +1,49 @@
+[0.166s] Invoking command in '/home/victoria_rotich/atom2024/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/atom2024/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/serial
+[0.738s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.754s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.127s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.272s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.496s] -- Configuring done
+[2.631s] -- Generating done
+[2.643s] -- Build files have been written to: /home/victoria_rotich/atom2024/build/serial
+[2.689s] Invoked command in '/home/victoria_rotich/atom2024/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/atom2024/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/serial
+[2.694s] Invoking command in '/home/victoria_rotich/atom2024/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/serial -- -j8 -l8
+[2.801s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[2.807s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[2.807s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[2.845s] [ 14%] Built target gtest_main
+[2.846s] [ 42%] Built target serial
+[2.860s] [ 57%] Built target gtest
+[2.877s] [35m[1mConsolidate compiler generated dependencies of target serial_example[0m
+[2.881s] [35m[1mConsolidate compiler generated dependencies of target serial-test-timer[0m
+[2.886s] [35m[1mConsolidate compiler generated dependencies of target serial-test[0m
+[2.913s] [ 71%] Built target serial_example
+[2.926s] [ 85%] Built target serial-test-timer
+[2.938s] [100%] Built target serial-test
+[2.973s] Invoked command in '/home/victoria_rotich/atom2024/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/serial -- -j8 -l8
+[3.002s] Invoking command in '/home/victoria_rotich/atom2024/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/serial
+[3.023s] -- Install configuration: ""
+[3.023s] -- Execute custom install script
+[3.024s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/lib/libserial.a
+[3.062s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/include/serial/serial.h
+[3.088s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/include/serial/v8stdint.h
+[3.110s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/library_path.sh
+[3.142s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/library_path.dsv
+[3.169s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[3.192s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[3.216s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/ament_prefix_path.sh
+[3.239s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/ament_prefix_path.dsv
+[3.258s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/path.sh
+[3.280s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/path.dsv
+[3.301s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/local_setup.bash
+[3.319s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/local_setup.sh
+[3.343s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/local_setup.zsh
+[3.366s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/local_setup.dsv
+[3.389s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/package.dsv
+[3.409s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/ament_index/resource_index/packages/serial
+[3.438s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.457s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[3.484s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/cmake/serialConfig.cmake
+[3.506s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/cmake/serialConfig-version.cmake
+[3.526s] -- Symlinking: /home/victoria_rotich/atom2024/install/serial/share/serial/package.xml
+[3.556s] Invoked command in '/home/victoria_rotich/atom2024/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/serial

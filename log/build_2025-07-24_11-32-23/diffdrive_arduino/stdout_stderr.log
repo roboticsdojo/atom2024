@@ -1,0 +1,52 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found serial: 1.2.1 (/home/victoria_rotich/atom2024/install/serial/share/serial/cmake)
+-- Found hardware_interface: 2.50.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found controller_manager: 2.50.0 (/opt/ros/humble/share/controller_manager/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/victoria_rotich/atom2024/build/diffdrive_arduino
+[35m[1mConsolidate compiler generated dependencies of target fake_robot[0m
+[35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[ 14%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[ 28%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[ 57%] Built target fake_robot
+[100%] Built target diffdrive_arduino
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/libfake_robot.so
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+-- Symlinking: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.xml

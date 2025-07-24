@@ -1,3 +1,1 @@
-source;share/diffdrive_arduino/environment/ament_prefix_path.sh
-source;share/diffdrive_arduino/environment/library_path.sh
-source;share/diffdrive_arduino/environment/path.sh
+/home/victoria_rotich/atom2024/build/diffdrive_arduino/ament_cmake_environment_hooks/local_setup.dsv
