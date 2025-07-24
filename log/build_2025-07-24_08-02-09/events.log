@@ -1,0 +1,1011 @@
+[0.000000] (-) TimerEvent: {}
+[0.000909] (atom_qs) JobQueued: {'identifier': 'atom_qs', 'dependencies': OrderedDict()}
+[0.000991] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.001039] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/victoria_rotich/atom2024/install/serial')])}
+[0.001085] (serial) JobStarted: {'identifier': 'serial'}
+[0.009877] (atom_qs) JobStarted: {'identifier': 'atom_qs'}
+[0.016761] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.018586] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/victoria_rotich/atom2024/serial', '-DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/serial'], 'cwd': '/home/victoria_rotich/atom2024/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victoria_rotich'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/victoria_rotich'), ('CYCLONEDDS_URI', '/home/victoria_rotich/cyclonedds_ws/cyclonedds.xml'), ('OLDPWD', '/home/victoria_rotich'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install:/home/victoria_rotich/dojo_robotics_2025/install:/home/victoria_rotich/ros2_ws/install:/home/victoria_rotich/dojo_robotics_2025/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victoria_rotich'), ('NAME', 'KOCHI'), ('WSL_INTEROP', '/run/WSL/129_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/victoria_rotich/.local/bin:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Users/user/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.2.3/bin:/mnt/c/Users/user/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/8086:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victoria_rotich/atom2024/build/serial'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victoria_rotich/dojo_robotics_2025/install/talker/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/build/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/install/listener/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.023394] (atom_qs) JobProgress: {'identifier': 'atom_qs', 'progress': 'cmake'}
+[0.026226] (atom_qs) Command: {'cmd': ['/usr/bin/cmake', '/home/victoria_rotich/atom2024/src/atom_qs', '-DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/atom_qs'], 'cwd': '/home/victoria_rotich/atom2024/build/atom_qs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victoria_rotich'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/victoria_rotich'), ('CYCLONEDDS_URI', '/home/victoria_rotich/cyclonedds_ws/cyclonedds.xml'), ('OLDPWD', '/home/victoria_rotich'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install:/home/victoria_rotich/dojo_robotics_2025/install:/home/victoria_rotich/ros2_ws/install:/home/victoria_rotich/dojo_robotics_2025/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victoria_rotich'), ('NAME', 'KOCHI'), ('WSL_INTEROP', '/run/WSL/129_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/victoria_rotich/.local/bin:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Users/user/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.2.3/bin:/mnt/c/Users/user/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/8086:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victoria_rotich/atom2024/build/atom_qs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victoria_rotich/dojo_robotics_2025/install/talker/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/build/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/install/listener/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.099899] (-) TimerEvent: {}
+[0.200632] (-) TimerEvent: {}
+[0.301512] (-) TimerEvent: {}
+[0.402305] (-) TimerEvent: {}
+[0.503466] (-) TimerEvent: {}
+[0.605043] (-) TimerEvent: {}
+[0.706888] (-) TimerEvent: {}
+[0.807889] (-) TimerEvent: {}
+[0.909234] (-) TimerEvent: {}
+[1.010545] (-) TimerEvent: {}
+[1.111702] (-) TimerEvent: {}
+[1.213167] (-) TimerEvent: {}
+[1.314611] (-) TimerEvent: {}
+[1.416094] (-) TimerEvent: {}
+[1.517051] (-) TimerEvent: {}
+[1.618719] (-) TimerEvent: {}
+[1.720343] (-) TimerEvent: {}
+[1.821796] (-) TimerEvent: {}
+[1.923273] (-) TimerEvent: {}
+[2.024193] (-) TimerEvent: {}
+[2.125037] (-) TimerEvent: {}
+[2.226032] (-) TimerEvent: {}
+[2.327350] (-) TimerEvent: {}
+[2.428424] (-) TimerEvent: {}
+[2.529502] (-) TimerEvent: {}
+[2.631639] (-) TimerEvent: {}
+[2.733255] (-) TimerEvent: {}
+[2.835304] (-) TimerEvent: {}
+[2.936446] (-) TimerEvent: {}
+[3.037048] (-) TimerEvent: {}
+[3.138110] (-) TimerEvent: {}
+[3.239223] (-) TimerEvent: {}
+[3.340505] (-) TimerEvent: {}
+[3.441079] (-) TimerEvent: {}
+[3.541740] (-) TimerEvent: {}
+[3.642576] (-) TimerEvent: {}
+[3.688079] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.688352] (atom_qs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.742858] (-) TimerEvent: {}
+[3.843625] (-) TimerEvent: {}
+[3.944196] (-) TimerEvent: {}
+[4.044519] (-) TimerEvent: {}
+[4.144857] (-) TimerEvent: {}
+[4.245515] (-) TimerEvent: {}
+[4.346755] (-) TimerEvent: {}
+[4.447570] (-) TimerEvent: {}
+[4.548913] (-) TimerEvent: {}
+[4.650274] (-) TimerEvent: {}
+[4.751106] (-) TimerEvent: {}
+[4.852785] (-) TimerEvent: {}
+[4.954701] (-) TimerEvent: {}
+[5.055812] (-) TimerEvent: {}
+[5.116610] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.116834] (atom_qs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.155938] (-) TimerEvent: {}
+[5.256286] (-) TimerEvent: {}
+[5.314371] (atom_qs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.314561] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.356796] (-) TimerEvent: {}
+[5.457207] (-) TimerEvent: {}
+[5.462975] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.463136] (atom_qs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.470312] (atom_qs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.470468] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.471064] (atom_qs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.471186] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.504046] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.504559] (atom_qs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.509696] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.509949] (atom_qs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.557740] (-) TimerEvent: {}
+[5.658526] (-) TimerEvent: {}
+[5.759931] (-) TimerEvent: {}
+[5.831236] (atom_qs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.832071] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.839385] (atom_qs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.839663] (atom_qs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.840069] (atom_qs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.842177] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.842531] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.843043] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.860211] (-) TimerEvent: {}
+[5.961128] (-) TimerEvent: {}
+[6.062811] (-) TimerEvent: {}
+[6.163706] (-) TimerEvent: {}
+[6.265003] (-) TimerEvent: {}
+[6.365327] (-) TimerEvent: {}
+[6.465989] (-) TimerEvent: {}
+[6.521211] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.522359] (atom_qs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.566174] (-) TimerEvent: {}
+[6.666854] (-) TimerEvent: {}
+[6.743632] (atom_qs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.743844] (serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.767007] (-) TimerEvent: {}
+[6.860472] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[6.867425] (-) TimerEvent: {}
+[6.883852] (atom_qs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.968016] (-) TimerEvent: {}
+[7.068869] (-) TimerEvent: {}
+[7.170293] (-) TimerEvent: {}
+[7.270928] (-) TimerEvent: {}
+[7.371598] (-) TimerEvent: {}
+[7.472134] (-) TimerEvent: {}
+[7.536193] (serial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[7.572256] (-) TimerEvent: {}
+[7.672803] (-) TimerEvent: {}
+[7.713330] (atom_qs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.730652] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[7.772938] (-) TimerEvent: {}
+[7.814136] (serial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.851425] (atom_qs) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.868756] (atom_qs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.871339] (atom_qs) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.873071] (-) TimerEvent: {}
+[7.888998] (atom_qs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.929166] (atom_qs) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.935533] (atom_qs) StdoutLine: {'line': b'-- Generating done\n'}
+[7.937808] (atom_qs) StdoutLine: {'line': b'-- Build files have been written to: /home/victoria_rotich/atom2024/build/atom_qs\n'}
+[7.944192] (atom_qs) CommandEnded: {'returncode': 0}
+[7.945086] (atom_qs) JobProgress: {'identifier': 'atom_qs', 'progress': 'build'}
+[7.945119] (atom_qs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/victoria_rotich/atom2024/build/atom_qs', '--', '-j8', '-l8'], 'cwd': '/home/victoria_rotich/atom2024/build/atom_qs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victoria_rotich'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/victoria_rotich'), ('CYCLONEDDS_URI', '/home/victoria_rotich/cyclonedds_ws/cyclonedds.xml'), ('OLDPWD', '/home/victoria_rotich'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install:/home/victoria_rotich/dojo_robotics_2025/install:/home/victoria_rotich/ros2_ws/install:/home/victoria_rotich/dojo_robotics_2025/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victoria_rotich'), ('NAME', 'KOCHI'), ('WSL_INTEROP', '/run/WSL/129_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/victoria_rotich/.local/bin:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Users/user/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.2.3/bin:/mnt/c/Users/user/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/8086:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victoria_rotich/atom2024/build/atom_qs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victoria_rotich/dojo_robotics_2025/install/talker/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/build/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/install/listener/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[7.973265] (-) TimerEvent: {}
+[7.981193] (atom_qs) CommandEnded: {'returncode': 0}
+[7.982608] (atom_qs) JobProgress: {'identifier': 'atom_qs', 'progress': 'install'}
+[7.992220] (atom_qs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/victoria_rotich/atom2024/build/atom_qs'], 'cwd': '/home/victoria_rotich/atom2024/build/atom_qs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victoria_rotich'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/victoria_rotich'), ('CYCLONEDDS_URI', '/home/victoria_rotich/cyclonedds_ws/cyclonedds.xml'), ('OLDPWD', '/home/victoria_rotich'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install:/home/victoria_rotich/dojo_robotics_2025/install:/home/victoria_rotich/ros2_ws/install:/home/victoria_rotich/dojo_robotics_2025/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victoria_rotich'), ('NAME', 'KOCHI'), ('WSL_INTEROP', '/run/WSL/129_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/victoria_rotich/.local/bin:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Users/user/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.2.3/bin:/mnt/c/Users/user/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/8086:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victoria_rotich/atom2024/build/atom_qs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victoria_rotich/dojo_robotics_2025/install/talker/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/build/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/install/listener/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[8.000365] (atom_qs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.000562] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config\n'}
+[8.001638] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/empty.yaml\n'}
+[8.001880] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/gazebo_params.yaml\n'}
+[8.002245] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/view_atom.rviz\n'}
+[8.002349] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[8.002507] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/mapper_params_online_async.yaml\n'}
+[8.042764] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/twist_mux.yaml\n'}
+[8.043319] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/my_controllers.yaml\n'}
+[8.043739] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/joystick.yaml\n'}
+[8.044180] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description\n'}
+[8.044439] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/ros2_control.xacro\n'}
+[8.044730] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/inertia_macros.xacro\n'}
+[8.045044] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/lidar.xacro\n'}
+[8.045643] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/robot.urdf.xacro\n'}
+[8.045945] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/robot_core.xacro\n'}
+[8.046150] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/gazebo_control.xacro\n'}
+[8.046496] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch\n'}
+[8.046593] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/launch_sim.launch.py\n'}
+[8.046907] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/rplidar.launch.py\n'}
+[8.047007] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/launch_robot.launch.py\n'}
+[8.047087] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/joystick.launch.py\n'}
+[8.047162] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/rsp.launch.py\n'}
+[8.047235] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/worlds\n'}
+[8.047320] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/worlds/dojo2024.world\n'}
+[8.047394] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/worlds/empty.world\n'}
+[8.047871] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/ament_index/resource_index/package_run_dependencies/atom_qs\n'}
+[8.048523] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/ament_index/resource_index/parent_prefix_path/atom_qs\n'}
+[8.049025] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/environment/ament_prefix_path.sh\n'}
+[8.049529] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/environment/ament_prefix_path.dsv\n'}
+[8.049718] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/environment/path.sh\n'}
+[8.049817] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/environment/path.dsv\n'}
+[8.050074] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/local_setup.bash\n'}
+[8.050498] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/local_setup.sh\n'}
+[8.050635] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/local_setup.zsh\n'}
+[8.050930] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/local_setup.dsv\n'}
+[8.051018] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.dsv\n'}
+[8.051409] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/ament_index/resource_index/packages/atom_qs\n'}
+[8.051820] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/cmake/atom_qsConfig.cmake\n'}
+[8.052154] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/cmake/atom_qsConfig-version.cmake\n'}
+[8.052243] (atom_qs) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.xml\n'}
+[8.054373] (atom_qs) CommandEnded: {'returncode': 0}
+[8.072592] (atom_qs) JobEnded: {'identifier': 'atom_qs', 'rc': 0}
+[8.073395] (-) TimerEvent: {}
+[8.173736] (-) TimerEvent: {}
+[8.274063] (-) TimerEvent: {}
+[8.299216] (serial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.299790] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.374208] (-) TimerEvent: {}
+[8.474613] (-) TimerEvent: {}
+[8.528740] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.530280] (serial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.574762] (-) TimerEvent: {}
+[8.618128] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.636809] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[8.641781] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/victoria_rotich/atom2024/build/serial\n'}
+[8.648090] (serial) CommandEnded: {'returncode': 0}
+[8.648780] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[8.648856] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/victoria_rotich/atom2024/build/serial', '--', '-j8', '-l8'], 'cwd': '/home/victoria_rotich/atom2024/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victoria_rotich'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/victoria_rotich'), ('CYCLONEDDS_URI', '/home/victoria_rotich/cyclonedds_ws/cyclonedds.xml'), ('OLDPWD', '/home/victoria_rotich'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install:/home/victoria_rotich/dojo_robotics_2025/install:/home/victoria_rotich/ros2_ws/install:/home/victoria_rotich/dojo_robotics_2025/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victoria_rotich'), ('NAME', 'KOCHI'), ('WSL_INTEROP', '/run/WSL/129_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/victoria_rotich/.local/bin:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Users/user/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.2.3/bin:/mnt/c/Users/user/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/8086:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victoria_rotich/atom2024/build/serial'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victoria_rotich/dojo_robotics_2025/install/talker/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/build/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/install/listener/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[8.674952] (-) TimerEvent: {}
+[8.707654] (serial) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[8.708902] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[8.709173] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[8.709401] (serial) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[8.709562] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[8.775115] (-) TimerEvent: {}
+[8.875496] (-) TimerEvent: {}
+[8.976017] (-) TimerEvent: {}
+[9.076503] (-) TimerEvent: {}
+[9.176924] (-) TimerEvent: {}
+[9.277395] (-) TimerEvent: {}
+[9.377787] (-) TimerEvent: {}
+[9.478205] (-) TimerEvent: {}
+[9.578572] (-) TimerEvent: {}
+[9.679027] (-) TimerEvent: {}
+[9.779511] (-) TimerEvent: {}
+[9.880003] (-) TimerEvent: {}
+[9.980533] (-) TimerEvent: {}
+[10.081023] (-) TimerEvent: {}
+[10.181503] (-) TimerEvent: {}
+[10.281977] (-) TimerEvent: {}
+[10.382422] (-) TimerEvent: {}
+[10.485253] (-) TimerEvent: {}
+[10.584412] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[10.585339] (-) TimerEvent: {}
+[10.685667] (-) TimerEvent: {}
+[10.786016] (-) TimerEvent: {}
+[10.792869] (serial) StdoutLine: {'line': b'[ 42%] Built target serial\n'}
+[10.820251] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[10.886140] (-) TimerEvent: {}
+[10.986641] (-) TimerEvent: {}
+[11.087104] (-) TimerEvent: {}
+[11.144497] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[11.187282] (-) TimerEvent: {}
+[11.199347] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[11.287393] (-) TimerEvent: {}
+[11.333768] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[11.387522] (-) TimerEvent: {}
+[11.487935] (-) TimerEvent: {}
+[11.577207] (serial) StdoutLine: {'line': b'[ 64%] Built target serial_example\n'}
+[11.588104] (-) TimerEvent: {}
+[11.688483] (-) TimerEvent: {}
+[11.788869] (-) TimerEvent: {}
+[11.889329] (-) TimerEvent: {}
+[11.989891] (-) TimerEvent: {}
+[12.090575] (-) TimerEvent: {}
+[12.191348] (-) TimerEvent: {}
+[12.292399] (-) TimerEvent: {}
+[12.392736] (-) TimerEvent: {}
+[12.493166] (-) TimerEvent: {}
+[12.594089] (-) TimerEvent: {}
+[12.695658] (-) TimerEvent: {}
+[12.796940] (-) TimerEvent: {}
+[12.897848] (-) TimerEvent: {}
+[12.999574] (-) TimerEvent: {}
+[13.100928] (-) TimerEvent: {}
+[13.201927] (-) TimerEvent: {}
+[13.303438] (-) TimerEvent: {}
+[13.403811] (-) TimerEvent: {}
+[13.504169] (-) TimerEvent: {}
+[13.604496] (-) TimerEvent: {}
+[13.704975] (-) TimerEvent: {}
+[13.805461] (-) TimerEvent: {}
+[13.905874] (-) TimerEvent: {}
+[14.006200] (-) TimerEvent: {}
+[14.106573] (-) TimerEvent: {}
+[14.206896] (-) TimerEvent: {}
+[14.307282] (-) TimerEvent: {}
+[14.408229] (-) TimerEvent: {}
+[14.509506] (-) TimerEvent: {}
+[14.610109] (-) TimerEvent: {}
+[14.710429] (-) TimerEvent: {}
+[14.810776] (-) TimerEvent: {}
+[14.911084] (-) TimerEvent: {}
+[15.011427] (-) TimerEvent: {}
+[15.111807] (-) TimerEvent: {}
+[15.127071] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[15.211967] (-) TimerEvent: {}
+[15.213360] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[15.233889] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[15.234096] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[15.312062] (-) TimerEvent: {}
+[15.412342] (-) TimerEvent: {}
+[15.512624] (-) TimerEvent: {}
+[15.613006] (-) TimerEvent: {}
+[15.713352] (-) TimerEvent: {}
+[15.813701] (-) TimerEvent: {}
+[15.914085] (-) TimerEvent: {}
+[16.014498] (-) TimerEvent: {}
+[16.114862] (-) TimerEvent: {}
+[16.130585] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[16.215082] (-) TimerEvent: {}
+[16.315493] (-) TimerEvent: {}
+[16.317563] (serial) StdoutLine: {'line': b'[ 92%] Built target serial-test-timer\n'}
+[16.415629] (-) TimerEvent: {}
+[16.516070] (-) TimerEvent: {}
+[16.616483] (-) TimerEvent: {}
+[16.716844] (-) TimerEvent: {}
+[16.817223] (-) TimerEvent: {}
+[16.917591] (-) TimerEvent: {}
+[16.944080] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[17.017691] (-) TimerEvent: {}
+[17.118073] (-) TimerEvent: {}
+[17.219090] (-) TimerEvent: {}
+[17.319436] (-) TimerEvent: {}
+[17.394991] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[17.408253] (serial) CommandEnded: {'returncode': 0}
+[17.408913] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[17.409449] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/victoria_rotich/atom2024/build/serial'], 'cwd': '/home/victoria_rotich/atom2024/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victoria_rotich'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/victoria_rotich'), ('CYCLONEDDS_URI', '/home/victoria_rotich/cyclonedds_ws/cyclonedds.xml'), ('OLDPWD', '/home/victoria_rotich'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install:/home/victoria_rotich/dojo_robotics_2025/install:/home/victoria_rotich/ros2_ws/install:/home/victoria_rotich/dojo_robotics_2025/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victoria_rotich'), ('NAME', 'KOCHI'), ('WSL_INTEROP', '/run/WSL/129_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/victoria_rotich/.local/bin:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Users/user/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.2.3/bin:/mnt/c/Users/user/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/8086:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victoria_rotich/atom2024/build/serial'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victoria_rotich/dojo_robotics_2025/install/talker/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/build/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/install/listener/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[17.416322] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.416895] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/lib/libserial.a\n'}
+[17.417899] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/include/serial/serial.h\n'}
+[17.418163] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/include/serial/v8stdint.h\n'}
+[17.419045] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/library_path.sh\n'}
+[17.419312] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/library_path.dsv\n'}
+[17.419534] (-) TimerEvent: {}
+[17.420102] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[17.420721] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[17.421157] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[17.421427] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[17.421967] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/path.sh\n'}
+[17.422118] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/path.dsv\n'}
+[17.422339] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/local_setup.bash\n'}
+[17.422808] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/local_setup.sh\n'}
+[17.423130] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/local_setup.zsh\n'}
+[17.423310] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/local_setup.dsv\n'}
+[17.423801] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/package.dsv\n'}
+[17.424149] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[17.424426] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.424686] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.424964] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[17.425315] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[17.425461] (serial) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/package.xml\n'}
+[17.428355] (serial) CommandEnded: {'returncode': 0}
+[17.444431] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[17.446369] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[17.495763] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[17.498460] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/victoria_rotich/atom2024/diffdrive_arduino', '-DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/diffdrive_arduino'], 'cwd': '/home/victoria_rotich/atom2024/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victoria_rotich'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victoria_rotich/atom2024/install/serial/lib:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/victoria_rotich'), ('CYCLONEDDS_URI', '/home/victoria_rotich/cyclonedds_ws/cyclonedds.xml'), ('OLDPWD', '/home/victoria_rotich'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install:/home/victoria_rotich/dojo_robotics_2025/install:/home/victoria_rotich/ros2_ws/install:/home/victoria_rotich/dojo_robotics_2025/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victoria_rotich'), ('NAME', 'KOCHI'), ('WSL_INTEROP', '/run/WSL/129_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/victoria_rotich/.local/bin:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Users/user/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.2.3/bin:/mnt/c/Users/user/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/8086:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victoria_rotich/atom2024/build/diffdrive_arduino'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victoria_rotich/dojo_robotics_2025/install/talker/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/build/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/install/listener/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[17.519681] (-) TimerEvent: {}
+[17.613259] (diffdrive_arduino) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[17.619755] (-) TimerEvent: {}
+[17.720032] (-) TimerEvent: {}
+[17.820273] (-) TimerEvent: {}
+[17.920596] (-) TimerEvent: {}
+[18.020908] (-) TimerEvent: {}
+[18.056173] (diffdrive_arduino) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[18.121025] (-) TimerEvent: {}
+[18.221391] (-) TimerEvent: {}
+[18.286379] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[18.321539] (-) TimerEvent: {}
+[18.421884] (-) TimerEvent: {}
+[18.459485] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[18.466920] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[18.467188] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[18.467530] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[18.470275] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[18.522107] (-) TimerEvent: {}
+[18.622499] (-) TimerEvent: {}
+[18.639147] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[18.647107] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[18.647405] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[18.647786] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[18.651107] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[18.722667] (-) TimerEvent: {}
+[18.796607] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[18.822813] (-) TimerEvent: {}
+[18.885302] (diffdrive_arduino) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/victoria_rotich/atom2024/install/serial/share/serial/cmake)\n'}
+[18.922995] (-) TimerEvent: {}
+[18.972244] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 2.50.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[19.023269] (-) TimerEvent: {}
+[19.123967] (-) TimerEvent: {}
+[19.224840] (-) TimerEvent: {}
+[19.326323] (-) TimerEvent: {}
+[19.427168] (-) TimerEvent: {}
+[19.528212] (-) TimerEvent: {}
+[19.629109] (-) TimerEvent: {}
+[19.730477] (-) TimerEvent: {}
+[19.830949] (-) TimerEvent: {}
+[19.931695] (-) TimerEvent: {}
+[20.033091] (-) TimerEvent: {}
+[20.134583] (-) TimerEvent: {}
+[20.236038] (-) TimerEvent: {}
+[20.337542] (-) TimerEvent: {}
+[20.439375] (-) TimerEvent: {}
+[20.540705] (-) TimerEvent: {}
+[20.642156] (-) TimerEvent: {}
+[20.743161] (-) TimerEvent: {}
+[20.843899] (-) TimerEvent: {}
+[20.944904] (-) TimerEvent: {}
+[21.046070] (-) TimerEvent: {}
+[21.147116] (-) TimerEvent: {}
+[21.248681] (-) TimerEvent: {}
+[21.350242] (-) TimerEvent: {}
+[21.451767] (-) TimerEvent: {}
+[21.553854] (-) TimerEvent: {}
+[21.655511] (-) TimerEvent: {}
+[21.756830] (-) TimerEvent: {}
+[21.857956] (-) TimerEvent: {}
+[21.959982] (-) TimerEvent: {}
+[22.061971] (-) TimerEvent: {}
+[22.163468] (-) TimerEvent: {}
+[22.265572] (-) TimerEvent: {}
+[22.367641] (-) TimerEvent: {}
+[22.469091] (-) TimerEvent: {}
+[22.570509] (-) TimerEvent: {}
+[22.671645] (-) TimerEvent: {}
+[22.772535] (-) TimerEvent: {}
+[22.874409] (-) TimerEvent: {}
+[22.975830] (-) TimerEvent: {}
+[23.077342] (-) TimerEvent: {}
+[23.178038] (-) TimerEvent: {}
+[23.278904] (-) TimerEvent: {}
+[23.380674] (-) TimerEvent: {}
+[23.482240] (-) TimerEvent: {}
+[23.583964] (-) TimerEvent: {}
+[23.685330] (-) TimerEvent: {}
+[23.786848] (-) TimerEvent: {}
+[23.888807] (-) TimerEvent: {}
+[23.990584] (-) TimerEvent: {}
+[24.091462] (-) TimerEvent: {}
+[24.192782] (-) TimerEvent: {}
+[24.294473] (-) TimerEvent: {}
+[24.395994] (-) TimerEvent: {}
+[24.496648] (-) TimerEvent: {}
+[24.597951] (-) TimerEvent: {}
+[24.699398] (-) TimerEvent: {}
+[24.800726] (-) TimerEvent: {}
+[24.902633] (-) TimerEvent: {}
+[25.004088] (-) TimerEvent: {}
+[25.105579] (-) TimerEvent: {}
+[25.207085] (-) TimerEvent: {}
+[25.307794] (-) TimerEvent: {}
+[25.411459] (-) TimerEvent: {}
+[25.515714] (-) TimerEvent: {}
+[25.620379] (-) TimerEvent: {}
+[25.724897] (-) TimerEvent: {}
+[25.830000] (-) TimerEvent: {}
+[25.934984] (-) TimerEvent: {}
+[26.036875] (-) TimerEvent: {}
+[26.142097] (-) TimerEvent: {}
+[26.247034] (-) TimerEvent: {}
+[26.352135] (-) TimerEvent: {}
+[26.454149] (-) TimerEvent: {}
+[26.556623] (-) TimerEvent: {}
+[26.662040] (-) TimerEvent: {}
+[26.766836] (-) TimerEvent: {}
+[26.871270] (-) TimerEvent: {}
+[26.973323] (-) TimerEvent: {}
+[27.076155] (-) TimerEvent: {}
+[27.180812] (-) TimerEvent: {}
+[27.285206] (-) TimerEvent: {}
+[27.386767] (-) TimerEvent: {}
+[27.487797] (-) TimerEvent: {}
+[27.589591] (-) TimerEvent: {}
+[27.692976] (-) TimerEvent: {}
+[27.797985] (-) TimerEvent: {}
+[27.902360] (-) TimerEvent: {}
+[28.006804] (-) TimerEvent: {}
+[28.108985] (-) TimerEvent: {}
+[28.211434] (-) TimerEvent: {}
+[28.312812] (-) TimerEvent: {}
+[28.414176] (-) TimerEvent: {}
+[28.516065] (-) TimerEvent: {}
+[28.618468] (-) TimerEvent: {}
+[28.721744] (-) TimerEvent: {}
+[28.824894] (-) TimerEvent: {}
+[28.928772] (-) TimerEvent: {}
+[29.032816] (-) TimerEvent: {}
+[29.135096] (-) TimerEvent: {}
+[29.238769] (-) TimerEvent: {}
+[29.342524] (-) TimerEvent: {}
+[29.445070] (-) TimerEvent: {}
+[29.547236] (-) TimerEvent: {}
+[29.649135] (-) TimerEvent: {}
+[29.750255] (-) TimerEvent: {}
+[29.852538] (-) TimerEvent: {}
+[29.954892] (-) TimerEvent: {}
+[30.057947] (-) TimerEvent: {}
+[30.160489] (-) TimerEvent: {}
+[30.262876] (-) TimerEvent: {}
+[30.364673] (-) TimerEvent: {}
+[30.467418] (-) TimerEvent: {}
+[30.569425] (-) TimerEvent: {}
+[30.672114] (-) TimerEvent: {}
+[30.774903] (-) TimerEvent: {}
+[30.877544] (-) TimerEvent: {}
+[30.979797] (-) TimerEvent: {}
+[31.082299] (-) TimerEvent: {}
+[31.183846] (-) TimerEvent: {}
+[31.286043] (-) TimerEvent: {}
+[31.388418] (-) TimerEvent: {}
+[31.490078] (-) TimerEvent: {}
+[31.590742] (-) TimerEvent: {}
+[31.691426] (-) TimerEvent: {}
+[31.792457] (-) TimerEvent: {}
+[31.893490] (-) TimerEvent: {}
+[31.994901] (-) TimerEvent: {}
+[32.096160] (-) TimerEvent: {}
+[32.197664] (-) TimerEvent: {}
+[32.298236] (-) TimerEvent: {}
+[32.399516] (-) TimerEvent: {}
+[32.500832] (-) TimerEvent: {}
+[32.601527] (-) TimerEvent: {}
+[32.702544] (-) TimerEvent: {}
+[32.804496] (-) TimerEvent: {}
+[32.906458] (-) TimerEvent: {}
+[33.008002] (-) TimerEvent: {}
+[33.108506] (-) TimerEvent: {}
+[33.209111] (-) TimerEvent: {}
+[33.309828] (-) TimerEvent: {}
+[33.410238] (-) TimerEvent: {}
+[33.511046] (-) TimerEvent: {}
+[33.612670] (-) TimerEvent: {}
+[33.713438] (-) TimerEvent: {}
+[33.814820] (-) TimerEvent: {}
+[33.917000] (-) TimerEvent: {}
+[34.018824] (-) TimerEvent: {}
+[34.119862] (-) TimerEvent: {}
+[34.220671] (-) TimerEvent: {}
+[34.321695] (-) TimerEvent: {}
+[34.422464] (-) TimerEvent: {}
+[34.523430] (-) TimerEvent: {}
+[34.624236] (-) TimerEvent: {}
+[34.725335] (-) TimerEvent: {}
+[34.826626] (-) TimerEvent: {}
+[34.927351] (-) TimerEvent: {}
+[35.028649] (-) TimerEvent: {}
+[35.130486] (-) TimerEvent: {}
+[35.232137] (-) TimerEvent: {}
+[35.333489] (-) TimerEvent: {}
+[35.434662] (-) TimerEvent: {}
+[35.535668] (-) TimerEvent: {}
+[35.637200] (-) TimerEvent: {}
+[35.738342] (-) TimerEvent: {}
+[35.839925] (-) TimerEvent: {}
+[35.940937] (-) TimerEvent: {}
+[36.042205] (-) TimerEvent: {}
+[36.142722] (-) TimerEvent: {}
+[36.243178] (-) TimerEvent: {}
+[36.343562] (-) TimerEvent: {}
+[36.444094] (-) TimerEvent: {}
+[36.545267] (-) TimerEvent: {}
+[36.646769] (-) TimerEvent: {}
+[36.748239] (-) TimerEvent: {}
+[36.849458] (-) TimerEvent: {}
+[36.950483] (-) TimerEvent: {}
+[37.052518] (-) TimerEvent: {}
+[37.154140] (-) TimerEvent: {}
+[37.254962] (-) TimerEvent: {}
+[37.356178] (-) TimerEvent: {}
+[37.456718] (-) TimerEvent: {}
+[37.557362] (-) TimerEvent: {}
+[37.658241] (-) TimerEvent: {}
+[37.758781] (-) TimerEvent: {}
+[37.859700] (-) TimerEvent: {}
+[37.960761] (-) TimerEvent: {}
+[38.061738] (-) TimerEvent: {}
+[38.162440] (-) TimerEvent: {}
+[38.263882] (-) TimerEvent: {}
+[38.365398] (-) TimerEvent: {}
+[38.466679] (-) TimerEvent: {}
+[38.568571] (-) TimerEvent: {}
+[38.670111] (-) TimerEvent: {}
+[38.771396] (-) TimerEvent: {}
+[38.873096] (-) TimerEvent: {}
+[38.974836] (-) TimerEvent: {}
+[39.075465] (-) TimerEvent: {}
+[39.176380] (-) TimerEvent: {}
+[39.277045] (-) TimerEvent: {}
+[39.378244] (-) TimerEvent: {}
+[39.479738] (-) TimerEvent: {}
+[39.580920] (-) TimerEvent: {}
+[39.682258] (-) TimerEvent: {}
+[39.782973] (-) TimerEvent: {}
+[39.884343] (-) TimerEvent: {}
+[39.986063] (-) TimerEvent: {}
+[40.087979] (-) TimerEvent: {}
+[40.189546] (-) TimerEvent: {}
+[40.290137] (-) TimerEvent: {}
+[40.391381] (-) TimerEvent: {}
+[40.492248] (-) TimerEvent: {}
+[40.593949] (-) TimerEvent: {}
+[40.695307] (-) TimerEvent: {}
+[40.796917] (-) TimerEvent: {}
+[40.898744] (-) TimerEvent: {}
+[41.000098] (-) TimerEvent: {}
+[41.101359] (-) TimerEvent: {}
+[41.202748] (-) TimerEvent: {}
+[41.303703] (-) TimerEvent: {}
+[41.404715] (-) TimerEvent: {}
+[41.506194] (-) TimerEvent: {}
+[41.607062] (-) TimerEvent: {}
+[41.707969] (-) TimerEvent: {}
+[41.809079] (-) TimerEvent: {}
+[41.909944] (-) TimerEvent: {}
+[42.011052] (-) TimerEvent: {}
+[42.112765] (-) TimerEvent: {}
+[42.213557] (-) TimerEvent: {}
+[42.315043] (-) TimerEvent: {}
+[42.416538] (-) TimerEvent: {}
+[42.517297] (-) TimerEvent: {}
+[42.617778] (-) TimerEvent: {}
+[42.718669] (-) TimerEvent: {}
+[42.819587] (-) TimerEvent: {}
+[42.920503] (-) TimerEvent: {}
+[43.021809] (-) TimerEvent: {}
+[43.122870] (-) TimerEvent: {}
+[43.224898] (-) TimerEvent: {}
+[43.326286] (-) TimerEvent: {}
+[43.427150] (-) TimerEvent: {}
+[43.528398] (-) TimerEvent: {}
+[43.628930] (-) TimerEvent: {}
+[43.729555] (-) TimerEvent: {}
+[43.830660] (-) TimerEvent: {}
+[43.932509] (-) TimerEvent: {}
+[44.033482] (-) TimerEvent: {}
+[44.135079] (-) TimerEvent: {}
+[44.235939] (-) TimerEvent: {}
+[44.337322] (-) TimerEvent: {}
+[44.438555] (-) TimerEvent: {}
+[44.539803] (-) TimerEvent: {}
+[44.641099] (-) TimerEvent: {}
+[44.741575] (-) TimerEvent: {}
+[44.842195] (-) TimerEvent: {}
+[44.943338] (-) TimerEvent: {}
+[45.044235] (-) TimerEvent: {}
+[45.145994] (-) TimerEvent: {}
+[45.247289] (-) TimerEvent: {}
+[45.348240] (-) TimerEvent: {}
+[45.449937] (-) TimerEvent: {}
+[45.551383] (-) TimerEvent: {}
+[45.652301] (-) TimerEvent: {}
+[45.752985] (-) TimerEvent: {}
+[45.854191] (-) TimerEvent: {}
+[45.955534] (-) TimerEvent: {}
+[46.056548] (-) TimerEvent: {}
+[46.158014] (-) TimerEvent: {}
+[46.258639] (-) TimerEvent: {}
+[46.359419] (-) TimerEvent: {}
+[46.460494] (-) TimerEvent: {}
+[46.561227] (-) TimerEvent: {}
+[46.661698] (-) TimerEvent: {}
+[46.762372] (-) TimerEvent: {}
+[46.863861] (-) TimerEvent: {}
+[46.964901] (-) TimerEvent: {}
+[47.066431] (-) TimerEvent: {}
+[47.166850] (-) TimerEvent: {}
+[47.267624] (-) TimerEvent: {}
+[47.368557] (-) TimerEvent: {}
+[47.469263] (-) TimerEvent: {}
+[47.569857] (-) TimerEvent: {}
+[47.670720] (-) TimerEvent: {}
+[47.771555] (-) TimerEvent: {}
+[47.872868] (-) TimerEvent: {}
+[47.973526] (-) TimerEvent: {}
+[48.074191] (-) TimerEvent: {}
+[48.175046] (-) TimerEvent: {}
+[48.276357] (-) TimerEvent: {}
+[48.376796] (-) TimerEvent: {}
+[48.477581] (-) TimerEvent: {}
+[48.579024] (-) TimerEvent: {}
+[48.679878] (-) TimerEvent: {}
+[48.780989] (-) TimerEvent: {}
+[48.883173] (-) TimerEvent: {}
+[48.984692] (-) TimerEvent: {}
+[49.086011] (-) TimerEvent: {}
+[49.186685] (-) TimerEvent: {}
+[49.287735] (-) TimerEvent: {}
+[49.389492] (-) TimerEvent: {}
+[49.491132] (-) TimerEvent: {}
+[49.591658] (-) TimerEvent: {}
+[49.692284] (-) TimerEvent: {}
+[49.793497] (-) TimerEvent: {}
+[49.894639] (-) TimerEvent: {}
+[49.995568] (-) TimerEvent: {}
+[50.097007] (-) TimerEvent: {}
+[50.198531] (-) TimerEvent: {}
+[50.299312] (-) TimerEvent: {}
+[50.400723] (-) TimerEvent: {}
+[50.501519] (-) TimerEvent: {}
+[50.603189] (-) TimerEvent: {}
+[50.703932] (-) TimerEvent: {}
+[50.805564] (-) TimerEvent: {}
+[50.907204] (-) TimerEvent: {}
+[51.008857] (-) TimerEvent: {}
+[51.110869] (-) TimerEvent: {}
+[51.212067] (-) TimerEvent: {}
+[51.312649] (-) TimerEvent: {}
+[51.413058] (-) TimerEvent: {}
+[51.514158] (-) TimerEvent: {}
+[51.615553] (-) TimerEvent: {}
+[51.716209] (-) TimerEvent: {}
+[51.817117] (-) TimerEvent: {}
+[51.917797] (-) TimerEvent: {}
+[52.018502] (-) TimerEvent: {}
+[52.119280] (-) TimerEvent: {}
+[52.220372] (-) TimerEvent: {}
+[52.320966] (-) TimerEvent: {}
+[52.421706] (-) TimerEvent: {}
+[52.522259] (-) TimerEvent: {}
+[52.622802] (-) TimerEvent: {}
+[52.723396] (-) TimerEvent: {}
+[52.823833] (-) TimerEvent: {}
+[52.924490] (-) TimerEvent: {}
+[53.025235] (-) TimerEvent: {}
+[53.125746] (-) TimerEvent: {}
+[53.226317] (-) TimerEvent: {}
+[53.327233] (-) TimerEvent: {}
+[53.428037] (-) TimerEvent: {}
+[53.528771] (-) TimerEvent: {}
+[53.630310] (-) TimerEvent: {}
+[53.730736] (-) TimerEvent: {}
+[53.831553] (-) TimerEvent: {}
+[53.933072] (-) TimerEvent: {}
+[54.033536] (-) TimerEvent: {}
+[54.134049] (-) TimerEvent: {}
+[54.234674] (-) TimerEvent: {}
+[54.335297] (-) TimerEvent: {}
+[54.436065] (-) TimerEvent: {}
+[54.536655] (-) TimerEvent: {}
+[54.637366] (-) TimerEvent: {}
+[54.738814] (-) TimerEvent: {}
+[54.839295] (-) TimerEvent: {}
+[54.939902] (-) TimerEvent: {}
+[55.041163] (-) TimerEvent: {}
+[55.141704] (-) TimerEvent: {}
+[55.242076] (-) TimerEvent: {}
+[55.342839] (-) TimerEvent: {}
+[55.444042] (-) TimerEvent: {}
+[55.544853] (-) TimerEvent: {}
+[55.646210] (-) TimerEvent: {}
+[55.747581] (-) TimerEvent: {}
+[55.848349] (-) TimerEvent: {}
+[55.949233] (-) TimerEvent: {}
+[56.050393] (-) TimerEvent: {}
+[56.151371] (-) TimerEvent: {}
+[56.252465] (-) TimerEvent: {}
+[56.353261] (-) TimerEvent: {}
+[56.454321] (-) TimerEvent: {}
+[56.555706] (-) TimerEvent: {}
+[56.656645] (-) TimerEvent: {}
+[56.758189] (-) TimerEvent: {}
+[56.859065] (-) TimerEvent: {}
+[56.960252] (-) TimerEvent: {}
+[57.061699] (-) TimerEvent: {}
+[57.162310] (-) TimerEvent: {}
+[57.262769] (-) TimerEvent: {}
+[57.363479] (-) TimerEvent: {}
+[57.464457] (-) TimerEvent: {}
+[57.565392] (-) TimerEvent: {}
+[57.666334] (-) TimerEvent: {}
+[57.767142] (-) TimerEvent: {}
+[57.867618] (-) TimerEvent: {}
+[57.968538] (-) TimerEvent: {}
+[58.069942] (-) TimerEvent: {}
+[58.171148] (-) TimerEvent: {}
+[58.271496] (-) TimerEvent: {}
+[58.371807] (-) TimerEvent: {}
+[58.472407] (-) TimerEvent: {}
+[58.574131] (-) TimerEvent: {}
+[58.675641] (-) TimerEvent: {}
+[58.777489] (-) TimerEvent: {}
+[58.879136] (-) TimerEvent: {}
+[58.980952] (-) TimerEvent: {}
+[59.082872] (-) TimerEvent: {}
+[59.184099] (-) TimerEvent: {}
+[59.285433] (-) TimerEvent: {}
+[59.386090] (-) TimerEvent: {}
+[59.486538] (-) TimerEvent: {}
+[59.587654] (-) TimerEvent: {}
+[59.688110] (-) TimerEvent: {}
+[59.788896] (-) TimerEvent: {}
+[59.889394] (-) TimerEvent: {}
+[59.990231] (-) TimerEvent: {}
+[60.090797] (-) TimerEvent: {}
+[60.191286] (-) TimerEvent: {}
+[60.291731] (-) TimerEvent: {}
+[60.392138] (-) TimerEvent: {}
+[60.492703] (-) TimerEvent: {}
+[60.593504] (-) TimerEvent: {}
+[60.694143] (-) TimerEvent: {}
+[60.763566] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[60.794323] (-) TimerEvent: {}
+[60.851170] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[60.894514] (-) TimerEvent: {}
+[60.957380] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[60.994974] (-) TimerEvent: {}
+[61.095902] (-) TimerEvent: {}
+[61.196851] (-) TimerEvent: {}
+[61.297540] (-) TimerEvent: {}
+[61.398054] (-) TimerEvent: {}
+[61.498932] (-) TimerEvent: {}
+[61.599704] (-) TimerEvent: {}
+[61.700260] (-) TimerEvent: {}
+[61.734421] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[61.800676] (-) TimerEvent: {}
+[61.901335] (-) TimerEvent: {}
+[61.969247] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[62.001583] (-) TimerEvent: {}
+[62.102163] (-) TimerEvent: {}
+[62.202875] (-) TimerEvent: {}
+[62.303263] (-) TimerEvent: {}
+[62.403810] (-) TimerEvent: {}
+[62.504439] (-) TimerEvent: {}
+[62.604949] (-) TimerEvent: {}
+[62.705384] (-) TimerEvent: {}
+[62.805880] (-) TimerEvent: {}
+[62.906339] (-) TimerEvent: {}
+[63.007016] (-) TimerEvent: {}
+[63.108528] (-) TimerEvent: {}
+[63.210037] (-) TimerEvent: {}
+[63.310853] (-) TimerEvent: {}
+[63.412714] (-) TimerEvent: {}
+[63.514612] (-) TimerEvent: {}
+[63.615741] (-) TimerEvent: {}
+[63.716076] (-) TimerEvent: {}
+[63.816441] (-) TimerEvent: {}
+[63.916818] (-) TimerEvent: {}
+[64.017167] (-) TimerEvent: {}
+[64.117645] (-) TimerEvent: {}
+[64.218004] (-) TimerEvent: {}
+[64.318409] (-) TimerEvent: {}
+[64.418768] (-) TimerEvent: {}
+[64.519058] (-) TimerEvent: {}
+[64.619380] (-) TimerEvent: {}
+[64.719748] (-) TimerEvent: {}
+[64.820108] (-) TimerEvent: {}
+[64.920574] (-) TimerEvent: {}
+[65.021257] (-) TimerEvent: {}
+[65.122199] (-) TimerEvent: {}
+[65.223074] (-) TimerEvent: {}
+[65.323793] (-) TimerEvent: {}
+[65.424332] (-) TimerEvent: {}
+[65.518714] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[65.524950] (-) TimerEvent: {}
+[65.625582] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)\n'}
+[65.626200] (-) TimerEvent: {}
+[65.727054] (-) TimerEvent: {}
+[65.828520] (-) TimerEvent: {}
+[65.928997] (-) TimerEvent: {}
+[66.030666] (-) TimerEvent: {}
+[66.063018] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[66.130816] (-) TimerEvent: {}
+[66.131534] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[66.230938] (-) TimerEvent: {}
+[66.259274] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[66.259648] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[66.331034] (-) TimerEvent: {}
+[66.389209] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[66.390360] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[66.431242] (-) TimerEvent: {}
+[66.531744] (-) TimerEvent: {}
+[66.632441] (-) TimerEvent: {}
+[66.733132] (-) TimerEvent: {}
+[66.797967] (diffdrive_arduino) StdoutLine: {'line': b'-- Found controller_manager: 2.50.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[66.833294] (-) TimerEvent: {}
+[66.933937] (-) TimerEvent: {}
+[67.034381] (-) TimerEvent: {}
+[67.134913] (-) TimerEvent: {}
+[67.235538] (-) TimerEvent: {}
+[67.336148] (-) TimerEvent: {}
+[67.353308] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[67.436384] (-) TimerEvent: {}
+[67.537009] (-) TimerEvent: {}
+[67.637780] (-) TimerEvent: {}
+[67.738318] (-) TimerEvent: {}
+[67.839212] (-) TimerEvent: {}
+[67.939978] (-) TimerEvent: {}
+[68.040370] (-) TimerEvent: {}
+[68.140970] (-) TimerEvent: {}
+[68.242203] (-) TimerEvent: {}
+[68.343643] (-) TimerEvent: {}
+[68.444148] (-) TimerEvent: {}
+[68.544997] (-) TimerEvent: {}
+[68.646307] (-) TimerEvent: {}
+[68.747805] (-) TimerEvent: {}
+[68.848949] (-) TimerEvent: {}
+[68.950001] (-) TimerEvent: {}
+[69.050816] (-) TimerEvent: {}
+[69.090894] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[69.100463] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/victoria_rotich/atom2024/build/diffdrive_arduino\n'}
+[69.111095] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[69.111835] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[69.113212] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/victoria_rotich/atom2024/build/diffdrive_arduino', '--', '-j8', '-l8'], 'cwd': '/home/victoria_rotich/atom2024/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victoria_rotich'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victoria_rotich/atom2024/install/serial/lib:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/victoria_rotich'), ('CYCLONEDDS_URI', '/home/victoria_rotich/cyclonedds_ws/cyclonedds.xml'), ('OLDPWD', '/home/victoria_rotich'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install:/home/victoria_rotich/dojo_robotics_2025/install:/home/victoria_rotich/ros2_ws/install:/home/victoria_rotich/dojo_robotics_2025/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victoria_rotich'), ('NAME', 'KOCHI'), ('WSL_INTEROP', '/run/WSL/129_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/victoria_rotich/.local/bin:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Users/user/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.2.3/bin:/mnt/c/Users/user/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/8086:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victoria_rotich/atom2024/build/diffdrive_arduino'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victoria_rotich/dojo_robotics_2025/install/talker/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/build/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/install/listener/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[69.150969] (-) TimerEvent: {}
+[69.171464] (diffdrive_arduino) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o\x1b[0m\n'}
+[69.171907] (diffdrive_arduino) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o\x1b[0m\n'}
+[69.172077] (diffdrive_arduino) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o\x1b[0m\n'}
+[69.173348] (diffdrive_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o\x1b[0m\n'}
+[69.173626] (diffdrive_arduino) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o\x1b[0m\n'}
+[69.251121] (-) TimerEvent: {}
+[69.351650] (-) TimerEvent: {}
+[69.452233] (-) TimerEvent: {}
+[69.553907] (-) TimerEvent: {}
+[69.654593] (-) TimerEvent: {}
+[69.755079] (-) TimerEvent: {}
+[69.855448] (-) TimerEvent: {}
+[69.955889] (-) TimerEvent: {}
+[70.056200] (-) TimerEvent: {}
+[70.156900] (-) TimerEvent: {}
+[70.257487] (-) TimerEvent: {}
+[70.358405] (-) TimerEvent: {}
+[70.459040] (-) TimerEvent: {}
+[70.559517] (-) TimerEvent: {}
+[70.660269] (-) TimerEvent: {}
+[70.760998] (-) TimerEvent: {}
+[70.861800] (-) TimerEvent: {}
+[70.962321] (-) TimerEvent: {}
+[71.062854] (-) TimerEvent: {}
+[71.163428] (-) TimerEvent: {}
+[71.263834] (-) TimerEvent: {}
+[71.364184] (-) TimerEvent: {}
+[71.464556] (-) TimerEvent: {}
+[71.564957] (-) TimerEvent: {}
+[71.665324] (-) TimerEvent: {}
+[71.765689] (-) TimerEvent: {}
+[71.866101] (-) TimerEvent: {}
+[71.966495] (-) TimerEvent: {}
+[72.066855] (-) TimerEvent: {}
+[72.167211] (-) TimerEvent: {}
+[72.267661] (-) TimerEvent: {}
+[72.368109] (-) TimerEvent: {}
+[72.468472] (-) TimerEvent: {}
+[72.568837] (-) TimerEvent: {}
+[72.669186] (-) TimerEvent: {}
+[72.769541] (-) TimerEvent: {}
+[72.869990] (-) TimerEvent: {}
+[72.970420] (-) TimerEvent: {}
+[73.070818] (-) TimerEvent: {}
+[73.171209] (-) TimerEvent: {}
+[73.271677] (-) TimerEvent: {}
+[73.372103] (-) TimerEvent: {}
+[73.472554] (-) TimerEvent: {}
+[73.572942] (-) TimerEvent: {}
+[73.673269] (-) TimerEvent: {}
+[73.773646] (-) TimerEvent: {}
+[73.874052] (-) TimerEvent: {}
+[73.974487] (-) TimerEvent: {}
+[74.074961] (-) TimerEvent: {}
+[74.175339] (-) TimerEvent: {}
+[74.275811] (-) TimerEvent: {}
+[74.376278] (-) TimerEvent: {}
+[74.476773] (-) TimerEvent: {}
+[74.577315] (-) TimerEvent: {}
+[74.677675] (-) TimerEvent: {}
+[74.778074] (-) TimerEvent: {}
+[74.878509] (-) TimerEvent: {}
+[74.978885] (-) TimerEvent: {}
+[75.079315] (-) TimerEvent: {}
+[75.179664] (-) TimerEvent: {}
+[75.280113] (-) TimerEvent: {}
+[75.380505] (-) TimerEvent: {}
+[75.480883] (-) TimerEvent: {}
+[75.581183] (-) TimerEvent: {}
+[75.681527] (-) TimerEvent: {}
+[75.782029] (-) TimerEvent: {}
+[75.786660] (diffdrive_arduino) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libfake_robot.so\x1b[0m\n'}
+[75.796447] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[75.882404] (-) TimerEvent: {}
+[75.983087] (-) TimerEvent: {}
+[76.084379] (-) TimerEvent: {}
+[76.185318] (-) TimerEvent: {}
+[76.286602] (-) TimerEvent: {}
+[76.387118] (-) TimerEvent: {}
+[76.488071] (-) TimerEvent: {}
+[76.588494] (-) TimerEvent: {}
+[76.689094] (-) TimerEvent: {}
+[76.789771] (-) TimerEvent: {}
+[76.890257] (-) TimerEvent: {}
+[76.990741] (-) TimerEvent: {}
+[77.091242] (-) TimerEvent: {}
+[77.191812] (-) TimerEvent: {}
+[77.232922] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target fake_robot\n'}
+[77.262719] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[77.281219] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[77.282345] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[77.283632] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/victoria_rotich/atom2024/build/diffdrive_arduino'], 'cwd': '/home/victoria_rotich/atom2024/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'victoria_rotich'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victoria_rotich/atom2024/install/serial/lib:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/victoria_rotich'), ('CYCLONEDDS_URI', '/home/victoria_rotich/cyclonedds_ws/cyclonedds.xml'), ('OLDPWD', '/home/victoria_rotich'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victoria_rotich/cyclonedds_ws/install:/home/victoria_rotich/dojo_robotics_2025/install:/home/victoria_rotich/ros2_ws/install:/home/victoria_rotich/dojo_robotics_2025/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victoria_rotich'), ('NAME', 'KOCHI'), ('WSL_INTEROP', '/run/WSL/129_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/victoria_rotich/.local/bin:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/user/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Users/user/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.2.3/bin:/mnt/c/Users/user/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin:/mnt/c/8086:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/victoria_rotich/atom2024/build/diffdrive_arduino'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victoria_rotich/dojo_robotics_2025/install/talker/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/build/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/install/listener/lib/python3.10/site-packages:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[77.291567] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[77.291915] (-) TimerEvent: {}
+[77.292611] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/robot_hardware.xml\n'}
+[77.292918] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot_hardware.xml\n'}
+[77.293625] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[77.296314] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""\n'}
+[77.296548] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/libfake_robot.so\n'}
+[77.297306] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/libfake_robot.so" to ""\n'}
+[77.297652] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/controllers\n'}
+[77.298629] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml\n'}
+[77.299137] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino\n'}
+[77.299368] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py\n'}
+[77.299627] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py\n'}
+[77.300080] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__\n'}
+[77.300366] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc\n'}
+[77.301186] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[77.301528] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[77.302758] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[77.303226] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[77.303518] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[77.303844] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[77.304020] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[77.304351] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[77.304602] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[77.305071] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[77.305164] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[77.305232] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[77.305306] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[77.305577] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[77.306163] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[77.306543] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[77.306883] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[77.306959] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[77.307066] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[77.307360] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[77.308953] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[77.326235] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[77.327928] (-) EventReactorShutdown: {}

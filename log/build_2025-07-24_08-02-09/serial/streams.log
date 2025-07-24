@@ -1,0 +1,74 @@
+[0.021s] Invoking command in '/home/victoria_rotich/atom2024/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/atom2024/serial -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/serial
+[3.687s] -- The C compiler identification is GNU 11.4.0
+[5.116s] -- The CXX compiler identification is GNU 11.4.0
+[5.313s] -- Detecting C compiler ABI info
+[5.462s] -- Detecting C compiler ABI info - done
+[5.469s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.470s] -- Detecting C compile features
+[5.503s] -- Detecting C compile features - done
+[5.509s] -- Detecting CXX compiler ABI info
+[5.831s] -- Detecting CXX compiler ABI info - done
+[5.841s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.841s] -- Detecting CXX compile features
+[5.842s] -- Detecting CXX compile features - done
+[6.521s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.743s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.859s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.535s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[7.730s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.813s] -- Looking for pthread.h
+[8.298s] -- Looking for pthread.h - found
+[8.299s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.528s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.529s] -- Found Threads: TRUE  
+[8.617s] -- Configuring done
+[8.636s] -- Generating done
+[8.641s] -- Build files have been written to: /home/victoria_rotich/atom2024/build/serial
+[8.647s] Invoked command in '/home/victoria_rotich/atom2024/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/atom2024/serial -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/serial
+[8.648s] Invoking command in '/home/victoria_rotich/atom2024/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/serial -- -j8 -l8
+[8.707s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.708s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[8.708s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[8.708s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[8.709s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[10.583s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[10.792s] [ 42%] Built target serial
+[10.819s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[11.144s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[11.198s] [ 57%] Built target gtest_main
+[11.333s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[11.576s] [ 64%] Built target serial_example
+[15.126s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[15.212s] [ 71%] Built target gtest
+[15.233s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[15.233s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[16.130s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[16.317s] [ 92%] Built target serial-test-timer
+[16.943s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[17.394s] [100%] Built target serial-test
+[17.407s] Invoked command in '/home/victoria_rotich/atom2024/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/serial -- -j8 -l8
+[17.409s] Invoking command in '/home/victoria_rotich/atom2024/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/serial
+[17.415s] -- Install configuration: ""
+[17.416s] -- Installing: /home/victoria_rotich/atom2024/install/serial/lib/libserial.a
+[17.417s] -- Installing: /home/victoria_rotich/atom2024/install/serial/include/serial/serial.h
+[17.417s] -- Installing: /home/victoria_rotich/atom2024/install/serial/include/serial/v8stdint.h
+[17.418s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/library_path.sh
+[17.418s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/library_path.dsv
+[17.419s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[17.420s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[17.420s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/ament_prefix_path.sh
+[17.421s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/ament_prefix_path.dsv
+[17.421s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/path.sh
+[17.421s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/environment/path.dsv
+[17.421s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/local_setup.bash
+[17.422s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/local_setup.sh
+[17.422s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/local_setup.zsh
+[17.422s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/local_setup.dsv
+[17.423s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/package.dsv
+[17.423s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/ament_index/resource_index/packages/serial
+[17.423s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.424s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[17.424s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/cmake/serialConfig.cmake
+[17.424s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/cmake/serialConfig-version.cmake
+[17.424s] -- Installing: /home/victoria_rotich/atom2024/install/serial/share/serial/package.xml
+[17.428s] Invoked command in '/home/victoria_rotich/atom2024/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/serial

@@ -1,0 +1,82 @@
+[0.053s] Invoking command in '/home/victoria_rotich/atom2024/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble LD_LIBRARY_PATH=/home/victoria_rotich/atom2024/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/victoria_rotich/atom2024/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/diffdrive_arduino
+[0.167s] -- The C compiler identification is GNU 11.4.0
+[0.610s] -- The CXX compiler identification is GNU 11.4.0
+[0.840s] -- Detecting C compiler ABI info
+[1.013s] -- Detecting C compiler ABI info - done
+[1.021s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.021s] -- Detecting C compile features
+[1.021s] -- Detecting C compile features - done
+[1.024s] -- Detecting CXX compiler ABI info
+[1.193s] -- Detecting CXX compiler ABI info - done
+[1.201s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.201s] -- Detecting CXX compile features
+[1.201s] -- Detecting CXX compile features - done
+[1.205s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.350s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.439s] -- Found serial: 1.2.1 (/home/victoria_rotich/atom2024/install/serial/share/serial/cmake)
+[1.526s] -- Found hardware_interface: 2.50.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[43.317s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[43.405s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[43.511s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[44.288s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[44.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[48.073s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[48.180s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[48.617s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[48.685s] -- Looking for pthread.h
+[48.813s] -- Looking for pthread.h - found
+[48.813s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[48.943s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[48.944s] -- Found Threads: TRUE  
+[49.352s] -- Found controller_manager: 2.50.0 (/opt/ros/humble/share/controller_manager/cmake)
+[49.907s] -- Configuring done
+[51.645s] -- Generating done
+[51.654s] -- Build files have been written to: /home/victoria_rotich/atom2024/build/diffdrive_arduino
+[51.665s] Invoked command in '/home/victoria_rotich/atom2024/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble LD_LIBRARY_PATH=/home/victoria_rotich/atom2024/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/victoria_rotich/atom2024/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/diffdrive_arduino
+[51.667s] Invoking command in '/home/victoria_rotich/atom2024/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble LD_LIBRARY_PATH=/home/victoria_rotich/atom2024/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/diffdrive_arduino -- -j8 -l8
+[51.725s] [ 42%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[51.726s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[51.726s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[51.727s] [ 57%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[51.727s] [ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o[0m
+[58.341s] [ 85%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[58.350s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[59.787s] [100%] Built target fake_robot
+[59.817s] [100%] Built target diffdrive_arduino
+[59.835s] Invoked command in '/home/victoria_rotich/atom2024/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble LD_LIBRARY_PATH=/home/victoria_rotich/atom2024/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/diffdrive_arduino -- -j8 -l8
+[59.838s] Invoking command in '/home/victoria_rotich/atom2024/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble LD_LIBRARY_PATH=/home/victoria_rotich/atom2024/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/diffdrive_arduino
+[59.845s] -- Install configuration: ""
+[59.846s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/robot_hardware.xml
+[59.847s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot_hardware.xml
+[59.847s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[59.850s] -- Set runtime path of "/home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+[59.850s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/libfake_robot.so
+[59.851s] -- Set runtime path of "/home/victoria_rotich/atom2024/install/diffdrive_arduino/lib/libfake_robot.so" to ""
+[59.851s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/controllers
+[59.852s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[59.853s] -- Up-to-date: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino
+[59.853s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[59.853s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[59.854s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__
+[59.854s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc
+[59.855s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[59.855s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[59.856s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[59.857s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[59.857s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[59.858s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[59.858s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[59.858s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[59.858s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[59.859s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[59.859s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[59.859s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[59.859s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[59.859s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[59.860s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[59.860s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[59.861s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.861s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[59.861s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[59.861s] -- Installing: /home/victoria_rotich/atom2024/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[59.863s] Invoked command in '/home/victoria_rotich/atom2024/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victoria_rotich/atom2024/install/serial:/home/victoria_rotich/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/victoria_rotich/cyclonedds_ws/install/cyclonedds:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_pack2:/home/victoria_rotich/dojo_robotics_2025/install/cpp_pubsub:/home/victoria_rotich/ros2_ws/install/sllidar_ros2:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble LD_LIBRARY_PATH=/home/victoria_rotich/atom2024/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/diffdrive_arduino

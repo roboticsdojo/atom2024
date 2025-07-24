@@ -1,3 +1,5 @@
+# This code can only runs on Arduino IDE. Will update changes soon to make it compatible with PlatformIO (VS Code)
+
 # Encoder Library
 
 Encoder counts pulses from quadrature encoded signals, which are commonly available from rotary knobs, motor or shaft sensors and other position sensors. 

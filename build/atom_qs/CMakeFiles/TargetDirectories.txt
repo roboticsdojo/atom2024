@@ -1,0 +1,9 @@
+/home/victoria_rotich/atom2024/build/atom_qs/CMakeFiles/uninstall.dir
+/home/victoria_rotich/atom2024/build/atom_qs/CMakeFiles/atom_qs_uninstall.dir
+/home/victoria_rotich/atom2024/build/atom_qs/CMakeFiles/test.dir
+/home/victoria_rotich/atom2024/build/atom_qs/CMakeFiles/edit_cache.dir
+/home/victoria_rotich/atom2024/build/atom_qs/CMakeFiles/rebuild_cache.dir
+/home/victoria_rotich/atom2024/build/atom_qs/CMakeFiles/list_install_components.dir
+/home/victoria_rotich/atom2024/build/atom_qs/CMakeFiles/install.dir
+/home/victoria_rotich/atom2024/build/atom_qs/CMakeFiles/install/local.dir
+/home/victoria_rotich/atom2024/build/atom_qs/CMakeFiles/install/strip.dir

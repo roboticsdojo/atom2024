@@ -1,0 +1,8 @@
+source;share/atom_qs/hook/cmake_prefix_path.ps1
+source;share/atom_qs/hook/cmake_prefix_path.dsv
+source;share/atom_qs/hook/cmake_prefix_path.sh
+source;share/atom_qs/local_setup.bash
+source;share/atom_qs/local_setup.dsv
+source;share/atom_qs/local_setup.ps1
+source;share/atom_qs/local_setup.sh
+source;share/atom_qs/local_setup.zsh

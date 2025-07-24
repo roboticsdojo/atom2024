@@ -1,0 +1,70 @@
+[0.019s] Invoking command in '/home/victoria_rotich/atom2024/build/atom_qs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/atom2024/src/atom_qs -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/atom_qs
+[3.679s] -- The C compiler identification is GNU 11.4.0
+[5.107s] -- The CXX compiler identification is GNU 11.4.0
+[5.305s] -- Detecting C compiler ABI info
+[5.453s] -- Detecting C compiler ABI info - done
+[5.460s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.461s] -- Detecting C compile features
+[5.495s] -- Detecting C compile features - done
+[5.502s] -- Detecting CXX compiler ABI info
+[5.821s] -- Detecting CXX compiler ABI info - done
+[5.830s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.830s] -- Detecting CXX compile features
+[5.830s] -- Detecting CXX compile features - done
+[6.513s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.734s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.874s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.704s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.842s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.859s] -- Added test 'lint_cmake' to check CMake code style
+[7.862s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.879s] -- Added test 'xmllint' to check XML markup files
+[7.919s] -- Configuring done
+[7.926s] -- Generating done
+[7.928s] -- Build files have been written to: /home/victoria_rotich/atom2024/build/atom_qs
+[7.935s] Invoked command in '/home/victoria_rotich/atom2024/build/atom_qs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/victoria_rotich/atom2024/src/atom_qs -DCMAKE_INSTALL_PREFIX=/home/victoria_rotich/atom2024/install/atom_qs
+[7.935s] Invoking command in '/home/victoria_rotich/atom2024/build/atom_qs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/atom_qs -- -j8 -l8
+[7.972s] Invoked command in '/home/victoria_rotich/atom2024/build/atom_qs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/victoria_rotich/atom2024/build/atom_qs -- -j8 -l8
+[7.983s] Invoking command in '/home/victoria_rotich/atom2024/build/atom_qs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/atom_qs
+[7.991s] -- Install configuration: ""
+[7.991s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config
+[7.992s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/empty.yaml
+[7.992s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/gazebo_params.yaml
+[7.992s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/view_atom.rviz
+[7.993s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/gaz_ros2_ctl_use_sim.yaml
+[7.993s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/mapper_params_online_async.yaml
+[8.033s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/twist_mux.yaml
+[8.034s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/my_controllers.yaml
+[8.034s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/config/joystick.yaml
+[8.034s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description
+[8.035s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/ros2_control.xacro
+[8.035s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/inertia_macros.xacro
+[8.036s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/lidar.xacro
+[8.036s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/robot.urdf.xacro
+[8.036s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/robot_core.xacro
+[8.037s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/description/gazebo_control.xacro
+[8.037s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch
+[8.037s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/launch_sim.launch.py
+[8.037s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/rplidar.launch.py
+[8.037s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/launch_robot.launch.py
+[8.037s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/joystick.launch.py
+[8.037s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/launch/rsp.launch.py
+[8.037s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/worlds
+[8.037s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/worlds/dojo2024.world
+[8.038s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/worlds/empty.world
+[8.038s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/ament_index/resource_index/package_run_dependencies/atom_qs
+[8.039s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/ament_index/resource_index/parent_prefix_path/atom_qs
+[8.039s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/environment/ament_prefix_path.sh
+[8.040s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/environment/ament_prefix_path.dsv
+[8.040s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/environment/path.sh
+[8.040s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/environment/path.dsv
+[8.040s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/local_setup.bash
+[8.041s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/local_setup.sh
+[8.041s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/local_setup.zsh
+[8.041s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/local_setup.dsv
+[8.041s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.dsv
+[8.042s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/ament_index/resource_index/packages/atom_qs
+[8.042s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/cmake/atom_qsConfig.cmake
+[8.042s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/cmake/atom_qsConfig-version.cmake
+[8.042s] -- Installing: /home/victoria_rotich/atom2024/install/atom_qs/share/atom_qs/package.xml
+[8.045s] Invoked command in '/home/victoria_rotich/atom2024/build/atom_qs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victoria_rotich/dojo_robotics_2025/install/talker:/home/victoria_rotich/dojo_robotics_2025/install/my_robot_package:/home/victoria_rotich/dojo_robotics_2025/install/listener:/home/victoria_rotich/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/victoria_rotich/atom2024/build/atom_qs
