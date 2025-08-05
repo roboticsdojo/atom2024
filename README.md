@@ -1,89 +1,122 @@
-# ROS2 Robot Navigation Package
-Ensure you have installed all the required libraries:
+# 🤖 ROS 2 Robot Navigation Package
 
-## Installation Requirements
+![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)
+![Gazebo](https://img.shields.io/badge/Simulated%20in-Gazebo-orange)
+![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi%20%7C%20Ubuntu-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+A ROS 2 package for robot simulation and real-world navigation using SLAM, localization, and joystick/keyboard teleoperation.
+
+---
+
+## 🛠 Installation Requirements
+
+Install the following dependencies:
 
 ```bash
-# 1. Gazebo
+# 1. Gazebo (Simulation)
 sudo apt install ros-humble-gazebo-ros-pkgs
 
-# 2. Colcon 
+# 2. Colcon (Build Tool)
 sudo apt install python3-colcon-common-extensions
 
-# 3. ROS2 Control
-sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-gazebo-ros2-control
+# 3. ROS 2 Control
+sudo apt install ros-humble-ros2-control \
+                 ros-humble-ros2-controllers \
+                 ros-humble-gazebo-ros2-control
 
-# 4. SLAM
+# 4. SLAM Toolbox
 sudo apt install ros-humble-slam-toolbox
 
-# 5. Install Nav2
-sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup
+# 5. Navigation2 Stack
+sudo apt install ros-humble-navigation2 \
+                 ros-humble-nav2-bringup
 
 # 6. Twist Mux
 sudo apt install ros-humble-twist-mux
 
-# 7. To check our gamepad works in Linux, we want to install some useful tools:
-
+# 7. Gamepad Tools
 sudo apt install joystick jstest-gtk evtest
 
-With the controller connected (e.g. via USB or Bluetooth), we can open a terminal and run evtest.
-
-# 8. To listen to a joystick with the new drivers, we can use the tools from the joy package. The first one will tell us which controllers ROS can see:
-
+# 8. Joystick (ROS 2 joy package)
 ros2 run joy joy_enumerate_devices
 
-# Start the joystick node and check output
-10. ros2 run joy joy_node # Terminal 1
-ros2 topic echo /joy # Terminal 2
+# Start the joystick node and echo messages
+ros2 run joy joy_node            # Terminal 1
+ros2 topic echo /joy             # Terminal 2
+```
 
-## Running Localisation in simulation
-#Step 1
+## 🧪 Running in Simulation
+Steps:
+```bash
+# 1. Launch simulation world
 ros2 launch atom_qs launch_sim.launch.py world:=./src/atom_qs/worlds/obstacles
 
-#Step 2:
+# 2. Launch RViz
 rviz2
 
-#Step 3:
-ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/cmd_vel_key
+# 3. Teleop with keyboard
+ros2 run teleop_twist_keyboard teleop_twist_keyboard \
+  --ros-args -r /cmd_vel:=/cmd_vel_key
 
-#Step 4:
-ros2 launch atom_qs online_async_launch.py slam_params_file:=./src/atom_qs/config/mapper_params_online_async.yaml use_sim_time:=true
+# 4. Launch SLAM
+ros2 launch atom_qs online_async_launch.py \
+  slam_params_file:=./src/atom_qs/config/mapper_params_online_async.yaml \
+  use_sim_time:=true
 
-#Step 5: 
+# 5. Launch Navigation
 ros2 launch atom_qs navigation_launch.py use_sim_time:=true
+```
 
-#Launching the actual robot:
-In the Pi launch the following:
-
-#1. LiDAR Node: 
+## 🤖 Running on the Actual Robot
+### On the Raspberry Pi:
+```bash
+# 1. Start the LiDAR
 ros2 launch sllidar_ros2 view_sllidar_a1_launch.py
 
-#2. Actual launch file: 
+# 2. Launch the robot
 ros2 launch atom_qs launch_robot.launch.py
+```
+### On your Laptop:
+Option 1: Keyboard Teleop
+```bash
 
-
-#On your laptop run: 
-#1. Teleop with keyboard: 
-ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
-
-#Alternatively you can run if connected to a joystick: 
+ros2 run teleop_twist_keyboard teleop_twist_keyboard \
+  --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+```
+Option 2: Joystick Teleop
+```bash
 ros2 launch atom_qs joystick.launch.py
+```
+#### SLAM & Navigation
+```bash
+# 1. Launch SLAM toolbox
+ros2 launch atom_qs online_async_launch.py \
+  slam_params_file:=./src/atom_qs/config/mapper_params_online_async.yaml \
+  use_sim_time:=true
 
-#2. Launch slam_toolbox: 
-ros2 launch atom_qs online_async_launch.py slam_params_file:=./src/atom_qs/config/mapper_params_online_async.yaml use_sim_time:=true
-
-# 3. Launch Navigation: 
+# 2. Launch Navigation
 ros2 launch nav2_bringup navigation_launch.py use_sim_time:=false
 
-#4. Final step : Launch rviz with 
-rviz2 
+# 3. Open RViz
+rviz2
+```
+#### 🗺️ Localization with Prebuilt Map (AMCL)
+If using a pre-mapped environment:
 
-#If not using slam_toolbox and using AMCL instead follow these steps from step 2:
+```bash
+# 1. Open RViz
+rviz2
 
-#2. To start localization: 
-ros2 launch atom_qs localization_launch.py map:=./ (enter name of map here(should be .yaml))
+# 2. Start Localization (use_sim_time:=false)
+ros2 launch atom_qs localization_launch.py map:=<your_map.yaml>
 
-#3. To start Navigation: 
+# 3. Start Navigation (use_sim_time:=false)
 ros2 launch atom_qs navigation_launch.py map_subscribe_transient_local:=true
+```
 
-⚠️ Note: The base map will not be updated in this mode—only the costmap is dynamically updated during navigation.
+⚠️ Note: Only the costmap is updated; the base map remains unchanged.
+
+
+🙋‍♀️ Questions or Contributions?
+Feel free to open an issue or submit a pull request if you want to contribute!
