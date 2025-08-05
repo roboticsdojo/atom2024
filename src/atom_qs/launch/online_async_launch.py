@@ -26,11 +26,11 @@ def generate_launch_description():
           slam_params_file,
           {'use_sim_time': use_sim_time}
         ],
-        package='slam_toolbox',
+        package='atom_qs',
         executable='async_slam_toolbox_node',
         name='slam_toolbox',
         output='screen',
-        # remappings=[('/odom','/map')]
+        remappings=[('/map','/odom')]
         )
 
     ld = LaunchDescription()
