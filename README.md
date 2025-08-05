@@ -50,7 +50,7 @@ ros2 topic echo /joy             # Terminal 2
 Steps:
 ```bash
 # 1. Launch simulation world
-ros2 launch atom_qs launch_sim.launch.py world:=./src/atom_qs/worlds/obstacles
+ros2 launch atom_qs launch_sim.launch.py world:=./src/atom_qs/worlds/obstacles.world
 
 # 2. Launch RViz
 rviz2
