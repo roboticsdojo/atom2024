@@ -72,7 +72,7 @@ ros2 launch atom_qs navigation_launch.py use_sim_time:=true
 ### On the Raspberry Pi:
 ```bash
 # 1. Start the LiDAR
-ros2 launch sllidar_ros2 view_sllidar_a1_launch.py
+ros2 launch sllidar_ros2 sllidar_a1_launch.py
 
 # 2. Launch the robot
 ros2 launch atom_qs launch_robot.launch.py
