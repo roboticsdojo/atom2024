@@ -91,6 +91,6 @@ def generate_launch_description():
                 'topic_name': topic_name
             }],
             output='screen',
-            arguments=['--ros-args', '--log-level', 'debug']  # Add debug output
+            arguments=['--ros-args', '--log-level', 'debug']  # Added debug output
         )
     ])
