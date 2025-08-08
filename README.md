@@ -91,9 +91,7 @@ ros2 launch atom_qs joystick.launch.py
 #### SLAM & Navigation
 ```bash
 # 1. Launch SLAM toolbox
-ros2 launch atom_qs online_async_launch.py \
-  slam_params_file:=./src/atom_qs/config/mapper_params_online_async.yaml \
-  use_sim_time:=true
+ros2 launch atom_qs online_async_launch.py slam_params_file:=./src/atom_qs/config/mapper_params_online_async.yaml 
 
 # 2. Launch Navigation
 ros2 launch nav2_bringup navigation_launch.py use_sim_time:=false
