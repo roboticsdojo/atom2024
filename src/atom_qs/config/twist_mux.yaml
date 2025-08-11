@@ -13,4 +13,4 @@ twist_mux:
         topic   : cmd_vel_joy
         timeout : 0.5
         priority: 100
-    output_topic: /diff_cont/cmd_vel_unstamped
+    # output_topic: /diff_cont/cmd_vel_unstamped

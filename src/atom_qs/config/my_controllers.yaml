@@ -1,8 +1,8 @@
 controller_manager:
   ros__parameters:  # Corrected to ros__parameters
     update_rate: 30
-    use_sim_time: true
-    odom_topic: odom 
+    use_sim_time: false
+    # odom_topic: odom 
 
     # Controllers to be loaded by the controller manager
     diff_cont:
@@ -17,6 +17,8 @@ diff_cont:
     publish_rate: 50.0  # Can be set higher than the controller manager update rate, but it will be throttled
     
     base_frame_id: base_link
+    odom_frame_id: odom
+    enable_odom_tf: true
     
     left_wheel_names: ['left_wheel_joint']
     right_wheel_names: ['right_wheel_joint']
@@ -24,4 +26,12 @@ diff_cont:
     wheel_radius: 0.035
     
     use_stamped_vel: false
+
+    # Odometry settings
+    publish_odom: true
+    publish_odom_tf: true
+    open_loop: false  # Set to true if you don't have wheel encoders
+
+joint_broad:
+  ros__parameters: {}
 
